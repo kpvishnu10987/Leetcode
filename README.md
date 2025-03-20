@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/kpvishnu10987/Leetcode/tree/master/0013-roman-to-integer) |
+| [0050-powx-n](https://github.com/kpvishnu10987/Leetcode/tree/master/0050-powx-n) |
 ## String
 |  |
 | ------- |
@@ -19,4 +20,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/kpvishnu10987/Leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
