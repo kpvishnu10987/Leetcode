@@ -24,4 +24,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/kpvishnu10987/Leetcode/tree/master/0050-powx-n) |
+## Array
+|  |
+| ------- |
+| [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
 <!---LeetCode Topics End-->
