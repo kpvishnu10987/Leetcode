@@ -26,6 +26,6 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 
     helper(nums,numsSize,0,tempsubset,0,result,returnSize,returnColumnSizes);
 
-    free(tempsubset);
+    
     return result; 
 }
