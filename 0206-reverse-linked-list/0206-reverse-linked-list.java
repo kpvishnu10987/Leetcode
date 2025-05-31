@@ -17,7 +17,7 @@ class Solution {
             temp = temp.next;
         }
         temp = head;
-        while(!st.isEmpty()){
+        while(!st.isEmpty() && temp != null){
             temp.val = st.pop();
             temp = temp.next;
         }
