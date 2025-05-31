@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/kpvishnu10987/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0908-middle-of-the-linked-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -59,4 +60,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
+## Two Pointers
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
