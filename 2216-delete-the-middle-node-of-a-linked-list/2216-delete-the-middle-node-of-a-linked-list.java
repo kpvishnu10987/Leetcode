@@ -21,9 +21,9 @@ class Solution {
             slow=slow.next;
             fast=fast.next.next;
         }
-        if(slow !=null){
+        
             prev.next = slow.next;
-        }
+        
         return head;
     }
 }
