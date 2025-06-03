@@ -14,29 +14,21 @@ class Solution {
             return true;
         }
         ListNode temp = head;
-        ListNode temp2 = head;
-        int vari = 0;
         Stack<Integer> st = new Stack<>();
-        int count = 0;
-        while(temp.next != null){
-            
-            count++;
+        while(temp != null){
             st.push(temp.val);
-            temp =  temp.next;
+            temp = temp.next;
         }
-        st.push(temp.val);
-        count++;
-         int  mid = count/2;
-        
-        while(!st.isEmpty() && count != mid){
-            vari = st.pop();
-            if(temp2.val != vari){
-                return false;
-            }
-            temp2 = temp2.next;
-            count--;
+
+        temp = head;
+    while(temp != null){
+        if(temp.val!=st.peek()){
+            return false;
         }
-        return true;
+        st.pop();
+        temp = temp.next;
+    }
+    return true;
     
         
     }
