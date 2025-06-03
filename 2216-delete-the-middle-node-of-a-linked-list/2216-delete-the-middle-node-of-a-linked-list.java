@@ -24,10 +24,6 @@ class Solution {
         if(slow !=null){
             prev.next = slow.next;
         }
-        
-       
-       
         return head;
-
     }
 }
