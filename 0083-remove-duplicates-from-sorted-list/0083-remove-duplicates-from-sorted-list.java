@@ -14,7 +14,7 @@ class Solution {
     ListNode prev = null;
     while(temp != null){
         prev = temp;
-        while(temp != null && temp.next !=null&& temp.next.val == prev.val){
+        while(temp.next !=null&& temp.next.val == prev.val){
             temp = temp.next;
         }
         prev.next = temp.next;
