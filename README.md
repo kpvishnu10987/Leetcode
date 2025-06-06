@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0136-single-number) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
 ## Linked List
 |  |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/kpvishnu10987/Leetcode/tree/master/0231-power-of-two) |
 ## Two Pointers
 |  |
