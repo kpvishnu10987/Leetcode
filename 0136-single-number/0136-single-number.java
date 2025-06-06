@@ -1,10 +1,17 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int xor =0;
-        for(int i=0;i<nums.length;i++){
-            xor = xor ^ nums[i];
+        Map <Integer,Integer> freq= new HashMap<>();
+        for(int num:nums){
+            freq.put(num,freq.getOrDefault(num,0)+1);
         }
-        return xor;
+
+        for(Map.Entry<Integer,Integer> entry:freq.entrySet()){
+            if(entry.getValue()==1){
+                return entry.getKey();
+            }
+        }
+        return -1;
+
         
     }
 }
