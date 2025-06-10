@@ -1,19 +1,21 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> allSubsets = new ArrayList<>();
-        List<Integer> subset = new ArrayList<>();
-        generateSubsets(0,nums,allSubsets,subset);
-        return allSubsets;
-    }
-    private void generateSubsets(int i,int[] nums, List<List<Integer>> allSubsets,List<Integer> subset){
         int n = nums.length;
-        if(i>=n){
-            allSubsets.add(new ArrayList<>(subset));
-            return;
+        int numberOfSub = 1<<n;
+        List<List<Integer>> ans = new ArrayList<>();
+        for(int i = 0;i<=numberOfSub-1;i++){
+        List<Integer> subset = new ArrayList<>();
+            for(int j = 0;j<=n-1;j++){
+                int k = 1<<j;
+                if((i & k) != 0){
+                    subset.add(nums[j]);
+                }
+            }
+            List<Integer> sub = new ArrayList<>(subset);
+            
+            ans.add(sub);
         }
-        subset.add(nums[i]);
-        generateSubsets(i+1,nums,allSubsets,subset);
-        subset.remove(subset.size()-1);
-        generateSubsets(i+1,nums,allSubsets,subset);
+        return ans;
+        
     }
 }
