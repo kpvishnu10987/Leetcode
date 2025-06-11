@@ -1,25 +1,29 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> ds = new ArrayList<>();
-        boolean freq[] = new boolean[nums.length];
-        gc(nums,ans,ds,freq);
+        gc(0,nums,ans);
         return ans;
     }
-    private void gc(int[] nums,List<List<Integer>> ans,List<Integer> ds,boolean freq[]){
+    private void gc(int index,int[] nums,List<List<Integer>> ans){
         int n = nums.length;
-        if(ds.size() == n){
-                ans.add(new ArrayList<>(ds));
-                return;
-            }
-        for(int i = 0 ;i<n;i++){
-            if(!freq[i]){
-                freq[i] = true;
+        if(index == n){
+            List<Integer> ds = new ArrayList<>();
+            for(int i = 0;i<n;i++){
                 ds.add(nums[i]);
-                gc(nums,ans,ds,freq);
-                ds.remove(ds.size()-1);
-                freq[i] = false;
-            } 
+            }
+            ans.add(new ArrayList<>(ds));
+            return;
         }
+        for(int i = index;i<n;i++){
+            swap(index,i,nums);
+            gc(index+1,nums,ans);
+            swap(index,i,nums);
+        }
+
+    }
+    private void swap(int a,int b,int[] nums){
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
     }
 }
