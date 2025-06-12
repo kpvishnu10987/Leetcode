@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/kpvishnu10987/Leetcode/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/kpvishnu10987/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Counting
 |  |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/kpvishnu10987/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
 | ------- |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/kpvishnu10987/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/kpvishnu10987/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
