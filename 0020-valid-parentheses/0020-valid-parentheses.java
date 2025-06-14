@@ -1,24 +1,21 @@
 class Solution {
+    private boolean isMatchhing(char open,char close){
+        if(open == '(' && close == ')') return true;
+        if(open == '{' && close == '}') return true;
+        if(open == '[' && close == ']') return true;
+        return false;
+    }
     public boolean isValid(String s) {
-        int n = s.length();
         Stack<Character> st = new Stack<>();
+        int n = s.length();
         if(n == 0) return true;
-        for(int i = 0 ;i<n;i++){
+        for(int i  = 0; i<n ;i++){
             char item = s.charAt(i);
-            char item2 =' ';
-            if(i>0 && !st.isEmpty()){
-                item2 = st.peek();
-            }
-            if(st.isEmpty() && (item == ')' || item == '}' || item == ']')  ){
-                return false;
-            }
-            if(item == '(' || item == '{' || item == '[' ){
+            if(item == '(' || item == '{' || item == '['){
                 st.push(item);
-            }
-            if((i>0)&&((item == ')' && item2 == '(') || (item == '}' && item2 == '{') || ( item2 == '['&&item == ']') ) ){
+            }else if(!st.isEmpty() && isMatchhing(st.peek(),item)){
                 st.pop();
-            }
-            if(((item == ')' && item2 != '(') || (item == '}' && item2 != '{') || ( item2 != '['&&item == ']') )){
+            }else{
                 return false;
             }
         }
