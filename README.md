@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/kpvishnu10987/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Divide and Conquer
 |  |
@@ -133,4 +134,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/kpvishnu10987/Leetcode/tree/master/0037-sudoku-solver) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/kpvishnu10987/Leetcode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/kpvishnu10987/Leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
