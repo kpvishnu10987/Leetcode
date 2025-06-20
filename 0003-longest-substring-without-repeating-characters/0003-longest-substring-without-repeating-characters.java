@@ -1,5 +1,8 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+        if(s==null || s.length()<=1){
+            return s.length();
+        }
         int n =  s.length();
         int maxlen = 0;
         int left=0,right=0;
