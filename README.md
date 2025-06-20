@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/kpvishnu10987/Leetcode/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/kpvishnu10987/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
 ## Linked List
 |  |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/kpvishnu10987/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -220,4 +222,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/kpvishnu10987/Leetcode/tree/master/0146-lru-cache) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
