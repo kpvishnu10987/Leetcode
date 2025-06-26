@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/kpvishnu10987/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/kpvishnu10987/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/kpvishnu10987/Leetcode/tree/master/0735-asteroid-collision) |
+| [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0943-sum-of-subarray-minimums](https://github.com/kpvishnu10987/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 ## Merge Sort
 |  |
 | ------- |
@@ -226,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/kpvishnu10987/Leetcode/tree/master/0402-remove-k-digits) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 ## Data Stream
 |  |
 | ------- |
