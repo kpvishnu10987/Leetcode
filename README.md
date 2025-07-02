@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/kpvishnu10987/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/kpvishnu10987/Leetcode/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kpvishnu10987/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0085-maximal-rectangle) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0131-palindrome-partitioning](https://github.com/kpvishnu10987/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0678-valid-parenthesis-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0678-valid-parenthesis-string) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/kpvishnu10987/Leetcode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/kpvishnu10987/Leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
