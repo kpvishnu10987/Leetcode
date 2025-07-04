@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## String
 |  |
 | ------- |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Array
 |  |
 | ------- |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/0260-single-number-iii) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/kpvishnu10987/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Two Pointers
 |  |
 | ------- |
