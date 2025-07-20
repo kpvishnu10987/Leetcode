@@ -15,22 +15,27 @@
  */
 class Solution {
     public boolean findTarget(TreeNode root, int k) {
-       return dfs(root,root,k);
-    }
-    private boolean dfs(TreeNode root,TreeNode current,int k){
-        if(current == null) return false;
+        List<Integer> list = new ArrayList<>();
+        inorder(root,list);
 
-        if(find(root,current,k-current.val)) return true;
-
-        return dfs(root,current.left,k) || dfs(root,current.right,k);
-    }
-    private boolean find(TreeNode root,TreeNode exclude,int k){
-        if(root == null) return false;
-        if(root.val == k && root != exclude) return true;
-        if(root.val > k){
-            return find(root.left,exclude,k);
-        }else{
-            return find(root.right,exclude,k);
+        int left = 0;
+        int right = list.size()-1;
+        while(left<right){
+            int sum = list.get(left)+list.get(right);
+            if(sum == k){
+                return true;
+            }else if(sum > k){
+                right--;
+            }else{
+                left++;
+            }
         }
+            return false;
+    }
+    private void inorder(TreeNode root,List<Integer> list){
+        if(root == null) return;
+        inorder(root.left,list);
+        list.add(root.val);
+        inorder(root.right,list);
     }
 }
