@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/kpvishnu10987/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/kpvishnu10987/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/kpvishnu10987/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/kpvishnu10987/Leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/kpvishnu10987/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/kpvishnu10987/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/kpvishnu10987/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/kpvishnu10987/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kpvishnu10987/Leetcode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/kpvishnu10987/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/kpvishnu10987/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/kpvishnu10987/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/kpvishnu10987/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -255,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/kpvishnu10987/Leetcode/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/kpvishnu10987/Leetcode/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/kpvishnu10987/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/kpvishnu10987/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/kpvishnu10987/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -377,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Quickselect
