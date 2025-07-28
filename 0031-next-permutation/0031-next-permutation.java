@@ -1,5 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
+        //lexicograpic permute algo
         int n = nums.length;
         int i = n-2;
 
