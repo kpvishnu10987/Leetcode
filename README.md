@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/kpvishnu10987/Leetcode/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/kpvishnu10987/Leetcode/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/kpvishnu10987/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/kpvishnu10987/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/kpvishnu10987/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/kpvishnu10987/Leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/kpvishnu10987/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/kpvishnu10987/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/kpvishnu10987/Leetcode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kpvishnu10987/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/kpvishnu10987/Leetcode/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/kpvishnu10987/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 ## Design
