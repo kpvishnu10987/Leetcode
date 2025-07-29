@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/kpvishnu10987/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/kpvishnu10987/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/kpvishnu10987/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/kpvishnu10987/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kpvishnu10987/Leetcode/tree/master/0057-insert-interval) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/kpvishnu10987/Leetcode/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/kpvishnu10987/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/kpvishnu10987/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/kpvishnu10987/Leetcode/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
