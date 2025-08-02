@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1078-remove-outermost-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/kpvishnu10987/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [3617-find-the-original-typed-string-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/kpvishnu10987/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [3618-find-the-original-typed-string-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Backtracking
 |  |
