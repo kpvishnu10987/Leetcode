@@ -1,25 +1,34 @@
 class Solution {
     public boolean canPartition(int[] nums) {
         int n = nums.length;
-
-        int total = 0;
+        int tot = 0;
         for(int num : nums){
-            total += num;
+            tot += num;
         }
-        int target = total/2;
+        if(tot%2 != 0) return false;
+        int target = tot/2;
 
-        if(total%2 != 0) return false; 
+        boolean [][] dp = new boolean[n][target+1];
 
+        for(int i = 0; i<n ; i++){
+            dp[i][0] = true;
+        }
+        if (nums[0] <= target){
 
-        boolean[] dp = new boolean[target+1];
-        dp[0] = true;
-
-        for(int num : nums){
-            for(int i = target ; i>= num ; i--){
-                dp[i] = dp[i] || dp[i-num];
+    dp[0][nums[0]] = true;
+        }
+        
+        for(int i = 1 ; i<n ; i++){
+            for(int tar = 1; tar <= target ; tar++){
+                boolean notTake = dp[i-1][tar];
+                boolean take = false;
+                if(nums[i] <= tar){
+                    take = dp[i-1][tar-nums[i]];
+                }
+                dp[i][tar] = take || notTake;
             }
         }
-
-        return dp[target];
+        return dp[n-1][target];
+        
     }
 }
