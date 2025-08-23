@@ -1,49 +1,58 @@
+class Pair{
+    int row;
+    int col;
+    int tm;
+    Pair(int _row,int _col, int _tm){
+        this.row = _row;
+        this.col = _col;
+        this.tm = _tm;
+    }
+
+}
 class Solution {
+
     public int orangesRotting(int[][] grid) {
-         if(grid == null || grid.length == 0) return 0;
-        int rows = grid.length;
-        int cols = grid[0].length;
-        Queue<int[]> queue = new LinkedList<>();
-        int count_fresh = 0;
-        //Put the position of all rotten oranges in queue
-        //count the number of fresh oranges
-        for(int i = 0 ; i < rows ; i++) {
-            for(int j = 0 ; j < cols ; j++) {
-                if(grid[i][j] == 2) {
-                    queue.offer(new int[]{i , j});
-                }
-                if(grid[i][j] != 0) {
-                    count_fresh++;
+        int n = grid.length;
+        int m = grid[0].length;
+
+        Queue<Pair> q = new LinkedList<>();
+        int[][] visited = new int[n][m];
+        int cnt_fresh = 0;
+        int cnt = 0;
+
+        for(int i = 0 ; i<n ; i++){
+            for(int j = 0 ; j<m ; j++){
+                if(grid[i][j] == 2){
+                    q.add(new Pair(i,j,0));
+                }else{
+                    if(grid[i][j] == 1){
+                        cnt_fresh += 1;
+                    }
                 }
             }
         }
-       
-        if(count_fresh == 0) return 0;
-        int countMin = 0, cnt = 0;
-        int dx[] = {0, 0, 1, -1};
-        int dy[] = {1, -1, 0, 0};
+        int tm = 0;
+        int drow[] = {-1,0,+1,0};
+        int dcol[] = {0,+1,0,-1};
+        while(!q.isEmpty()){
+            int r = q.peek().row;
+            int c = q.peek().col;
+            int t = q.peek().tm;
+            tm = Math.max(tm,t);
+            q.remove();
+            for(int i = 0 ; i<4 ; i++){
+                int nrow = r + drow[i];
+                int ncol = c + dcol[i];
+                if(nrow >= 0 && nrow <n && ncol >=0 && ncol <m && visited[nrow][ncol] == 0 && grid[nrow][ncol] == 1 ){
+                    cnt++;
+                    q.offer(new Pair(nrow,ncol,t+1));
+                    visited[nrow][ncol] = 1; 
+                }
+            }
+        }
+
+        if (cnt != cnt_fresh) return -1;
+        return tm;
         
-        //bfs starting from initially rotten oranges
-        while(!queue.isEmpty()) {
-            int size = queue.size();
-            cnt += size; 
-            for(int i = 0 ; i < size ; i++) {
-                int[] point = queue.poll();
-                for(int j = 0;j<4;j++) {
-                    int x = point[0] + dx[j];
-                    int y = point[1] + dy[j];
-                    
-                    if(x < 0 || y < 0 || x >= rows || y >= cols || grid[x][y] == 0 || 
-                    grid[x][y] == 2) continue;
-                    
-                    grid[x][y] = 2;
-                    queue.offer(new int[]{x , y});
-                }
-            }
-            if(queue.size() != 0) {
-                countMin++;
-            }
-        }
-        return count_fresh == cnt ? countMin : -1;
     }
 }
