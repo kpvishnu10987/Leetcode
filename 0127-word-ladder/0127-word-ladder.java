@@ -1,8 +1,7 @@
-class Node {
+class Node{
     String word;
     int steps;
-
-    Node(String word, int steps) {
+    Node(String word,int steps){
         this.word = word;
         this.steps = steps;
     }
@@ -10,37 +9,37 @@ class Node {
 
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> set = new HashSet<>(wordList);
-        if (!set.contains(endWord)) return 0;  // endWord must be in wordList
+        Set<String> wordset = new HashSet<>(wordList);
+        if(!wordset.contains(endWord)) return 0;
 
         Queue<Node> q = new LinkedList<>();
-        q.offer(new Node(beginWord, 1));
-        set.remove(beginWord);
+        q.offer(new Node(beginWord,1));
+        wordset.remove(beginWord);
 
-        while (!q.isEmpty()) {
-            Node node = q.poll();
-            String word = node.word;
-            int st = node.steps;
+        while(!q.isEmpty()){
+            String w = q.peek().word;
+            int st = q.peek().steps;
+            q.poll();
+            if(w.equals(endWord)) return st;
 
-            if (word.equals(endWord)) return st;
 
-            char[] arr = word.toCharArray();  
-            for (int i = 0; i < arr.length; i++) {
+            char[] arr = w.toCharArray();
+            for(int i = 0 ; i<arr.length; i++){
                 char original = arr[i];
-                for (char ch = 'a'; ch <= 'z'; ch++) {
-                    if (ch == original) continue;
+                for(char c= 'a' ; c <= 'z' ; c++){
+                    if(c == original) continue;
 
-                    arr[i] = ch;
-                    String newWord = new String(arr);
-
-                    if (set.contains(newWord)) {
-                        q.offer(new Node(newWord, st + 1));
-                        set.remove(newWord);  
+                    arr[i] = c;
+                    String temp = new String(arr);
+                    if(wordset.contains(temp)){
+                        q.offer(new Node(temp,st+1));
+                        wordset.remove(temp);
                     }
                 }
-                arr[i] = original; 
+                arr[i] = original;
             }
         }
+
         return 0;
     }
 }
