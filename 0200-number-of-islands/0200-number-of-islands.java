@@ -19,6 +19,7 @@ class Solution {
             for(int j = 0 ; j<m ;j++){
                 if(vis[i][j] != 1 && grid[i][j] == '1'){
                     cnt++;
+                    vis[i][j] = 1;
                     q.offer(new Edge(i,j));
                     bfs(grid,vis,q,n,m);
                 }
