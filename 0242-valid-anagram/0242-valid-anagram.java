@@ -3,18 +3,17 @@ class Solution {
         int n = s.length();
         int m = t.length();
         if(n!=m) return false;
-        HashMap<Character,Integer> h = new HashMap<>();
-        for(int i = 0 ; i<n ; i++){
-             h.put(s.charAt(i),h.getOrDefault(s.charAt(i),0)+1);
+        int[] arr = new int[126];
+        for(int i = 0 ; i<n ;i++){
+            int idx = s.charAt(i)-'a';
+            arr[idx]++;
         }
-        for(int i = 0 ;i<n ;i++){
-            if(!h.containsKey(t.charAt(i))){
-                return false;
-            }
-            
-            h.put(t.charAt(i),h.get(t.charAt(i))-1);
-            if(h.get(t.charAt(i))<0) return false;
+        for(int i = 0 ;i<m ;i++){
+            int idx = t.charAt(i)-'a';
+            if(arr[idx] <= 0) return false;
+            arr[idx]--;
         }
+
         return true;
         
     }
