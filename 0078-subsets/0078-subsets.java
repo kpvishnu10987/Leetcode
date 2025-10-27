@@ -7,12 +7,13 @@ class Solution {
     }
     private void helper(int i ,int[] nums,List<Integer> sub,List<List<Integer>> ans){
 
-        if(i == nums.length+1){
+        if(i == nums.length){
+            if(!ans.contains(sub)){
+                ans.add(new ArrayList<>(sub));
+            }
             return;
         }
-        if(!ans.contains(sub)){
-            ans.add(new ArrayList<>(sub));
-        }
+        
 
         if(i<nums.length){
             sub.add(nums[i]);
