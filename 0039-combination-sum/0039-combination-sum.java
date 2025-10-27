@@ -1,23 +1,22 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
-        // List<Integer> subset = new ArrayList<>();
-        generateCombinations(0,candidates,target,ans,new ArrayList<>());
+        List<Integer> sub = new ArrayList<>();
+        helper(0, 0, candidates, target, ans, sub);
         return ans;
     }
-    private void generateCombinations(int i,int[] candidates, int target,List<List<Integer>> ans,List<Integer> subset){
-        int n = candidates.length;
-        if(i==n){
-            if(target == 0){
-                ans.add(new ArrayList<>(subset));
+
+    private void helper(int i, int sum, int[] candidates, int target, List<List<Integer>> ans, List<Integer> sub) {
+        if(i == candidates.length || sum >= target){
+            if(sum == target){
+                ans.add(new ArrayList<>(sub));
             }
             return;
         }
-        if(candidates[i] <= target){
-            subset.add(candidates[i]);
-            generateCombinations(i,candidates,target-candidates[i],ans,subset);
-            subset.remove(subset.size()-1);
-        }
-        generateCombinations(i+1,candidates,target,ans,subset);
+
+        sub.add(candidates[i]);
+        helper(i,sum+candidates[i],candidates,target,ans,sub);
+        sub.remove(sub.size()-1);
+        helper(i+1,sum,candidates,target,ans,sub);
     }
 }
