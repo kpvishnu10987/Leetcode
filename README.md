@@ -763,4 +763,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/kpvishnu10987/Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/kpvishnu10987/Leetcode/tree/master/0207-course-schedule) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/kpvishnu10987/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
