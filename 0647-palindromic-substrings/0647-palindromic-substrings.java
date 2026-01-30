@@ -1,26 +1,27 @@
 class Solution {
     public int countSubstrings(String s) {
-
         int n = s.length();
         int count = 0;
 
-        for(int i = 0 ; i < n ; i++){
-            for(int j = i+1; j<= n ; j++){
-                String sub = s.substring(i,j);
-                if(isPal(sub)) count++;
-            }
+        for(int i = 0 ; i <n ; i++){
+            count += expand(s,i,i);
+            count += expand(s,i,i+1);
         }
 
         return count;
-        
     }
-    private boolean isPal(String t){
-        int n = t.length();
-        int l = 0 , r = n-1;
-        while(l < r){
-            if(t.charAt(l++) != t.charAt(r--)) return false;
+
+    private int expand(String s ,int i, int j){
+        int cnt = 0;
+        int n = s.length();
+
+        while(i >= 0 && j<n && s.charAt(i) == s.charAt(j)){
+            cnt++;
+            i--;
+            j++;
         }
 
-        return true;
+        return cnt;
+
     }
 }
