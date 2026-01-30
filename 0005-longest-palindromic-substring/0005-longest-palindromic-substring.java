@@ -1,35 +1,37 @@
 class Solution {
     public String longestPalindrome(String s) {
         int n = s.length();
-        if(n <= 1) return s;
+        if (n <= 1) return s;
 
-        String ans = new String();
-        int maxlen = Integer.MIN_VALUE;
-        int len = 0;
+        int start = 0;
+        int maxLen = 1;
 
-        for(int i = 0 ; i<n ; i++){
-            for(int j = i+1; j <=n ; j++){
-                String sub = s.substring(i,j);
-                if(isPal(sub)){
-                    len = sub.length();
-                    if(len > maxlen){
-                        maxlen = len;
-                        ans = sub;
-                    }
+        for (int i = 0; i < n; i++) {
+
+            // Odd length palindrome
+            int l = i, r = i;
+            while (l >= 0 && r < n && s.charAt(l) == s.charAt(r)) {
+                if (r - l + 1 > maxLen) {
+                    start = l;
+                    maxLen = r - l + 1;
                 }
+                l--;
+                r++;
+            }
+
+            // Even length palindrome
+            l = i;
+            r = i + 1;
+            while (l >= 0 && r < n && s.charAt(l) == s.charAt(r)) {
+                if (r - l + 1 > maxLen) {
+                    start = l;
+                    maxLen = r - l + 1;
+                }
+                l--;
+                r++;
             }
         }
 
-        return ans;
-        
-    }
-    private boolean isPal(String t){
-        int m = t.length();
-
-        for(int i = 0  ; i<m/2 ; i++){
-            if(t.charAt(i) != t.charAt(m-i-1)) return false;
-        }
-
-        return true;
+        return s.substring(start, start + maxLen);
     }
 }
