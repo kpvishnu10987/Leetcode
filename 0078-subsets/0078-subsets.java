@@ -10,9 +10,9 @@ class Solution {
     private void helper(int i,int n,int[] nums,List<List<Integer>> ans,List<Integer> sub)
     {
         if(i == n){
-            if(!ans.contains(sub)){
+           
                 ans.add(new ArrayList<>(sub));
-            }
+            
             return;
         }
         sub.add(nums[i]);
