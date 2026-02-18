@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/kpvishnu10987/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/kpvishnu10987/Leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/kpvishnu10987/Leetcode/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/kpvishnu10987/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/kpvishnu10987/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/kpvishnu10987/Leetcode/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/kpvishnu10987/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/kpvishnu10987/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/kpvishnu10987/Leetcode/tree/master/0169-majority-element) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/kpvishnu10987/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kpvishnu10987/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/kpvishnu10987/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/kpvishnu10987/Leetcode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/kpvishnu10987/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/kpvishnu10987/Leetcode/tree/master/0225-implement-stack-using-queues) |
