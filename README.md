@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kpvishnu10987/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0953-verifying-an-alien-dictionary](https://github.com/kpvishnu10987/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -739,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/kpvishnu10987/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/kpvishnu10987/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/kpvishnu10987/Leetcode/tree/master/1073-number-of-enclaves) |
@@ -859,11 +861,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/kpvishnu10987/Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/kpvishnu10987/Leetcode/tree/master/0207-course-schedule) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kpvishnu10987/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/kpvishnu10987/Leetcode/tree/master/0200-number-of-islands) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Database
 |  |
 | ------- |
