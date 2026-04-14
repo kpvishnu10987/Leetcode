@@ -15,11 +15,27 @@
  */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        if(root == null) return result;
-        result.addAll(inorderTraversal(root.left));
-        result.add(root.val);
-        result.addAll(inorderTraversal(root.right));
-        return result;   
+        List<Integer> ans = new ArrayList<>();
+        if(root == null) return ans;
+
+        Deque<TreeNode> st = new ArrayDeque<>();
+        TreeNode cur = root;
+
+        while(cur != null || !st.isEmpty()){
+            while(cur != null){
+                st.push(cur);
+                cur = cur.left;
+            }
+
+            cur = st.pop();
+            ans.add(cur.val);
+            cur = cur.right;
+        }
+
+        return ans;
+
+
+
+
     }
 }
