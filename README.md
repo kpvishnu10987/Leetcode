@@ -662,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kpvishnu10987/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kpvishnu10987/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -703,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kpvishnu10987/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kpvishnu10987/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -740,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/kpvishnu10987/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kpvishnu10987/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kpvishnu10987/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
@@ -779,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/kpvishnu10987/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kpvishnu10987/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kpvishnu10987/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
