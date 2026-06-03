@@ -1,79 +1,51 @@
-import java.util.*;
-
 class Solution {
-
+    int n;
+    int m;
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
+        n = heights.length;
+        m = heights[0].length;
 
-        int n = heights.length;
-        int m = heights[0].length;
-
+        List<List<Integer>> ans = new ArrayList<>();
         boolean[][] pacific = new boolean[n][m];
         boolean[][] atlantic = new boolean[n][m];
 
-        Queue<int[]> pq = new LinkedList<>();
-        Queue<int[]> aq = new LinkedList<>();
+        for(int c = 0; c < m; c++){
+    dfs(0, c, pacific, heights);
+    dfs(n - 1, c, atlantic, heights);
+}
 
-        // Pacific Ocean (top row & left column)
-        for (int i = 0; i < m; i++) {
-            pacific[0][i] = true;
-            pq.offer(new int[]{0, i});
-        }
-        for (int i = 0; i < n; i++) {
-            pacific[i][0] = true;
-            pq.offer(new int[]{i, 0});
-        }
-
-        // Atlantic Ocean (bottom row & right column)
-        for (int i = 0; i < m; i++) {
-            atlantic[n - 1][i] = true;
-            aq.offer(new int[]{n - 1, i});
-        }
-        for (int i = 0; i < n; i++) {
-            atlantic[i][m - 1] = true;
-            aq.offer(new int[]{i, m - 1});
-        }
-
-        bfs(pq, pacific, heights);
-        bfs(aq, atlantic, heights);
-
-        List<List<Integer>> result = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (pacific[i][j] && atlantic[i][j]) {
-                    result.add(Arrays.asList(i, j));
+for(int r = 0; r < n; r++){
+    dfs(r, 0, pacific, heights);
+    dfs(r, m - 1, atlantic, heights);
+}
+        
+        for(int i = 0 ; i<n ; i++){
+            for(int j=0 ; j<m ; j++){
+                if(pacific[i][j] && atlantic[i][j]){
+                    ans.add(Arrays.asList(i,j));
                 }
             }
         }
 
-        return result;
+        return ans;
     }
 
-    private void bfs(Queue<int[]> q, boolean[][] ocean, int[][] heights) {
+    private void dfs(int i,int j,boolean[][] ocean,int[][] heights){
+        ocean[i][j] = true;
+        int[] drow = {-1,0,1,0};
+        int[] dcol = {0,1,0,-1};
 
-        int n = heights.length;
-        int m = heights[0].length;
+        for(int k = 0  ; k<4 ; k++){
+            int r = drow[k] + i;
+            int c = dcol[k] + j;
 
-        int[] drow = {-1, 0, 1, 0};
-        int[] dcol = {0, 1, 0, -1};
-
-        while (!q.isEmpty()) {
-            int[] cell = q.poll();
-            int r = cell[0];
-            int c = cell[1];
-
-            for (int i = 0; i < 4; i++) {
-                int nr = r + drow[i];
-                int nc = c + dcol[i];
-
-                if (nr >= 0 && nc >= 0 && nr < n && nc < m
-                        && !ocean[nr][nc]
-                        && heights[nr][nc] >= heights[r][c]) {
-
-                    ocean[nr][nc] = true;
-                    q.offer(new int[]{nr, nc});
-                }
+            if(r < 0 || r > n-1 || c < 0 || c > m-1 || ocean[r][c] || heights[r][c] < heights[i][j]){
+                continue;
             }
+
+            dfs(r,c,ocean,heights);
         }
     }
+
+    
 }
