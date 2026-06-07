@@ -1,42 +1,31 @@
 class Solution {
+    int[][] dp;
+    int n;
+    int m;
+
     public int longestCommonSubsequence(String text1, String text2) {
-        int n = text1.length();
-        int m = text2.length();
+        n = text1.length();
+        m = text2.length();
 
-        int[][] dp = new int[n][m];
+        dp = new int[n][m];
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+        return dfs(0, 0, text1, text2);
+    }
 
-        // base case: first cell
-        if (text1.charAt(0) == text2.charAt(0)) {
-            dp[0][0] = 1;
+    private int dfs(int i, int j, String s1, String s2) {
+        if (i == n || j == m)
+            return 0;
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+        if (s1.charAt(i) == s2.charAt(j)) {
+            dp[i][j] = 1 + dfs(i + 1, j + 1, s1, s2);
+        } else {
+            dp[i][j] = Math.max(dfs(i + 1, j, s1, s2), dfs(i, j + 1, s1, s2));
         }
 
-        // first row
-        for (int j = 1; j < m; j++) {
-            if (text1.charAt(0) == text2.charAt(j))
-                dp[0][j] = 1;
-            else
-                dp[0][j] = dp[0][j - 1];
-        }
-
-        // first column
-        for (int i = 1; i < n; i++) {
-            if (text1.charAt(i) == text2.charAt(0))
-                dp[i][0] = 1;
-            else
-                dp[i][0] = dp[i - 1][0];
-        }
-
-        // rest of DP
-        for (int i = 1; i < n; i++) {
-            for (int j = 1; j < m; j++) {
-                if (text1.charAt(i) == text2.charAt(j)) {
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-                }
-            }
-        }
-
-        return dp[n - 1][m - 1];
+        return dp[i][j];
     }
 }
