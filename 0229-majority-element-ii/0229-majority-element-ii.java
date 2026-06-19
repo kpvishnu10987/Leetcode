@@ -1,17 +1,48 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        List<Integer> ans = new ArrayList<>();
-        int n = nums.length;
-        int target = n/3;
-        Map<Integer,Integer> map = new HashMap<>();
+        int max1 = 0;
+        int max2 = 0;
+        int count1 = 0;
+        int count2 = 0;
+
         for(int num : nums){
-            map.put(num,map.getOrDefault(num,0)+1);
-        }
-        for(Map.Entry<Integer,Integer> e : map.entrySet()){
-            if(e.getValue() > target){
-                ans.add(e.getKey());
+            if(num == max1){
+                count1++;
+            }else if(num == max2){
+                count2++;
+            }else{
+                if(count1 == 0){
+                    max1 = num;
+                    count1++;
+                }else if(count2 == 0){
+                    max2 = num;
+                    count2++;
+                }else{
+                    count1--;
+                    count2--;
+                }
             }
         }
-        return ans; 
+
+        int n = nums.length;
+        List<Integer> ans = new ArrayList<>();
+        count1 =0;
+        count2 =0;
+
+        for (int num : nums) {
+            if (num == max1)
+                count1++;
+            else if (num == max2)
+                count2++;
+        }
+
+
+        if (count1 > n / 3)
+            ans.add(max1);
+
+        if (count2 > n / 3 && max1 != max2)
+            ans.add(max2);
+
+        return ans;
     }
 }
