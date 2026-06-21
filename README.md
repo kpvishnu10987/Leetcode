@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Math
 |  |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
+| [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Linked List
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
+| [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 ## Merge Sort
 |  |
 | ------- |
@@ -603,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
