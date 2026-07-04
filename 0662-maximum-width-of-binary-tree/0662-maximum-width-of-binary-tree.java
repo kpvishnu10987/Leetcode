@@ -15,36 +15,41 @@
  */
 class Solution {
     class Pair{
-        TreeNode node;
-        long index;
-        Pair(TreeNode node,long index){
-            this.node = node;
-            this.index = index;
+        TreeNode root;
+        long idx;
+        Pair(TreeNode root,long idx){
+            this.root = root;
+            this.idx = idx;
         }
     }
     public int widthOfBinaryTree(TreeNode root) {
-        
         if(root == null) return 0;
         Queue<Pair> q = new LinkedList<>();
         q.offer(new Pair(root,0));
-        long maxwidth = 0;
+        long max = Integer.MIN_VALUE;
+
         while(!q.isEmpty()){
             int size = q.size();
-            long base = q.peek().index;
-            long first =0,last = 0;
+            long start = -1;
+            long end = -1;
             for(int i = 0 ; i<size ; i++){
                 Pair cur = q.poll();
-                long curidx = cur.index;
-                if(i == 0) first = curidx-base;
-                if(i == size-1) last = curidx-base;
+                TreeNode node = cur.root;
+                long curidx = cur.idx;
+                if(i == 0){
+                    start = curidx;
+                }
+                if(i == size-1){
+                    end = curidx;
+                }
+                long next = 2*curidx;
 
-                if(cur.node.left != null) q.offer(new Pair(cur.node.left,2*cur.index));
-                if(cur.node.right != null) q.offer(new Pair(cur.node.right,2*cur.index+1));
+                if(node.left != null) q.offer(new Pair(node.left,next+1));
+                if(node.right != null) q.offer(new Pair(node.right,next+2));
             }
-            maxwidth = Math.max(maxwidth,last-first);
-
+            max = Math.max(max,end-start);
         }
-        return (int)maxwidth+1;
-        
+
+        return (int)max+1;
     }
 }
