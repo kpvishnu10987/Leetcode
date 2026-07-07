@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/kpvishnu10987/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/kpvishnu10987/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/kpvishnu10987/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kpvishnu10987/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/kpvishnu10987/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
