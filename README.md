@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
+| [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/kpvishnu10987/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0953-verifying-an-alien-dictionary](https://github.com/kpvishnu10987/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/kpvishnu10987/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/kpvishnu10987/Leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/kpvishnu10987/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [0909-snakes-and-ladders](https://github.com/kpvishnu10987/Leetcode/tree/master/0909-snakes-and-ladders) |
+| [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0943-sum-of-subarray-minimums](https://github.com/kpvishnu10987/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0953-verifying-an-alien-dictionary](https://github.com/kpvishnu10987/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0853-car-fleet](https://github.com/kpvishnu10987/Leetcode/tree/master/0853-car-fleet) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
+| [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
@@ -1007,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Sweep Line
 |  |
