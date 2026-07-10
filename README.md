@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Linked List
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kpvishnu10987/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Backtracking
@@ -411,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/kpvishnu10987/Leetcode/tree/master/0338-counting-bits) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/kpvishnu10987/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Two Pointers
@@ -442,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/kpvishnu10987/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Stack
 |  |
 | ------- |
@@ -518,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Merge Sort
 |  |
 | ------- |
@@ -617,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Data Stream
 |  |
@@ -698,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Quickselect
 |  |
@@ -987,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1192-critical-connections-in-a-network](https://github.com/kpvishnu10987/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Union-Find
 |  |
