@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1470-shuffle-the-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kpvishnu10987/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
+| [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kpvishnu10987/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -529,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
 | [1331-rank-transform-of-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
