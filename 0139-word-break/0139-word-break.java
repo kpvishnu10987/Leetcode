@@ -14,7 +14,6 @@ class Solution {
     }
 
     private boolean f(int i,int j){
-        if(i >= j) return false;
         if(set.contains(s.substring(i,j))) return true;
         if(dp[i][j] != null) return dp[i][j];
         boolean ans = false;
