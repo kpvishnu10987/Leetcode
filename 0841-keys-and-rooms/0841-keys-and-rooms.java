@@ -1,29 +1,24 @@
 class Solution {
+    boolean[] vis;
+    List<List<Integer>> graph;
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-        Queue<Integer> q = new LinkedList<>();
-        boolean[] vis = new boolean[rooms.size()];
+        graph = rooms;
+        vis = new boolean[graph.size()];
+        dfs(0);
 
-        q.offer(0);
-        vis[0] = true;
-
-        while(!q.isEmpty()){
-            int n = q.size();
-            for(int i = 0 ; i<n ; i++){
-                int node = q.poll();
-
-                for(int nei : rooms.get(node)){
-                    if(!vis[nei]){
-                        vis[nei] = true;
-                        q.offer(nei);
-                    }
-                }
-            }
-        }
-
-        for(int i = 0 ; i<rooms.size() ; i++){
+        for(int i = 0 ; i<graph.size(); i++){
             if(!vis[i]) return false;
         }
-
         return true;
+    }
+
+    private void dfs(int i){
+        vis[i] = true;
+
+        for(int nei : graph.get(i)){
+            if(!vis[nei]){
+                dfs(nei);
+            }
+        }
     }
 }
