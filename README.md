@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -939,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/kpvishnu10987/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [2685-count-the-number-of-complete-components](https://github.com/kpvishnu10987/Leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
