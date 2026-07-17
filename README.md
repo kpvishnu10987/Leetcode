@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Math
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Recursion
 |  |
 | ------- |
@@ -299,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -708,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3618-find-the-original-typed-string-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Binary Search
@@ -728,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -979,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/kpvishnu10987/Leetcode/tree/master/0062-unique-paths) |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -1062,6 +1069,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/kpvishnu10987/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
