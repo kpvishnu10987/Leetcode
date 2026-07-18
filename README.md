@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/2050-count-good-numbers) |
 | [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
@@ -1089,6 +1091,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/kpvishnu10987/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
