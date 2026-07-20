@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -588,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/kpvishnu10987/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1463-cherry-pickup-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1463-cherry-pickup-ii) |
@@ -637,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/kpvishnu10987/Leetcode/tree/master/0735-asteroid-collision) |
+| [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
