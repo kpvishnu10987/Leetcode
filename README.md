@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/kpvishnu10987/Leetcode/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/kpvishnu10987/Leetcode/tree/master/0827-making-a-large-island) |
 | [0853-car-fleet](https://github.com/kpvishnu10987/Leetcode/tree/master/0853-car-fleet) |
+| [0860-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0860-lemonade-change) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [0909-snakes-and-ladders](https://github.com/kpvishnu10987/Leetcode/tree/master/0909-snakes-and-ladders) |
@@ -664,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
 | [0670-maximum-swap](https://github.com/kpvishnu10987/Leetcode/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0860-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0860-lemonade-change) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
