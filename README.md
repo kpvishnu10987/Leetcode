@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
+| [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Merge Sort
@@ -613,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 ## Design
@@ -682,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3927-minimize-array-sum-using-divisible-replacements](https://github.com/kpvishnu10987/Leetcode/tree/master/3927-minimize-array-sum-using-divisible-replacements) |
 ## Data Stream
@@ -724,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/kpvishnu10987/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Monotonic Queue
