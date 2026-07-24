@@ -1123,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0176-second-highest-salary](https://github.com/kpvishnu10987/Leetcode/tree/master/0176-second-highest-salary) |
 | [0550-game-play-analysis-iv](https://github.com/kpvishnu10987/Leetcode/tree/master/0550-game-play-analysis-iv) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/kpvishnu10987/Leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
+| [0626-exchange-seats](https://github.com/kpvishnu10987/Leetcode/tree/master/0626-exchange-seats) |
 | [1517-find-users-with-valid-e-mails](https://github.com/kpvishnu10987/Leetcode/tree/master/1517-find-users-with-valid-e-mails) |
 | [1757-recyclable-and-low-fat-products](https://github.com/kpvishnu10987/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/kpvishnu10987/Leetcode/tree/master/1978-employees-whose-manager-left-the-company) |
