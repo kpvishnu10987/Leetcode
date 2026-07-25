@@ -1,23 +1,30 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int xor = 0 ;
-        int[] ans = new int[2];
-        for( int i=0;i<nums.length;i++){
-            xor = xor^nums[i];
+        int total  = 0;
+
+        for(int num : nums){
+            total ^= num;
         }
-        int rightmost = (xor & (xor-1))^xor;
-        int b1=0,b2=0;
-        for(int i=0;i<nums.length;i++){
-            if((nums[i] & rightmost) != 0){
-                b1 = b1 ^ nums[i];
+
+        int bit = 0;
+        while((total & (1 << bit)) != (1 << bit)){
+            bit++;
+        }
+        int mask = (1 << bit);
+
+        int a = 0;
+        int b = 0;
+
+
+        for(int num : nums){
+            if((num & mask) == 0){
+                a ^= num;
             }else{
-                b2 = b2 ^ nums[i];
+                b ^= num;
             }
         }
-        ans[0]=b1;
-        ans[1] = b2;
-        return ans;
-        
+
+        return new int[]{a,b};
         
     }
 }
