@@ -1,40 +1,43 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+    public boolean canFinish(int numCourses, int[][] arr) {
+        int n = numCourses;
+        int in[] = new int[n];
+        Stack<Integer> st = new Stack<>();
+
         List<List<Integer>> graph = new ArrayList<>();
-        for(int i = 0 ; i<numCourses ; i++){
+
+        for(int i = 0 ; i<n ; i++){
             graph.add(new ArrayList<>());
         }
-        for(int[] arr : prerequisites){
-            graph.get(arr[1]).add(arr[0]);
+
+        for(int[] p : arr){
+            int a = p[0];
+            int b = p[1];
+            graph.get(b).add(a);
+            in[a]++;
         }
 
-        boolean visited[] = new boolean[numCourses];
-        boolean path[] = new boolean[numCourses];
-        boolean cycle = false;
+        for(int i = 0 ; i<n ; i++){
+            if(in[i] == 0) st.push(i);
+        }
 
-        for(int i = 0 ; i<numCourses ; i++){
-            if(!visited[i]){
-                if(dfs(i,path,visited,graph)){
-                    cycle = true;
-                    break;
+        while(!st.isEmpty()){
+            int node = st.pop();
+
+            for(int nei : graph.get(node)){
+                in[nei]--;
+                if(in[nei] == 0){
+                    st.push(nei);
                 }
             }
         }
-        return cycle == true ? false : true;
-    }
 
-    private boolean dfs(int node,boolean path[],boolean visited[],List<List<Integer>> graph){
-        visited[node] = true;
-        path[node] = true;
-
-        for(int nei : graph.get(node)){
-            if(!visited[nei] && dfs(nei,path,visited,graph)){
-                return true;
-            }else if(path[nei]){
-                return true;
-            }
+        for(int i = 0 ; i<n ; i++){
+            if(in[i] != 0) return false;
         }
-        path[node] = false;
-        return false;
+
+        return true;
+
+
     }
 }
