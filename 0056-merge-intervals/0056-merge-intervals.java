@@ -18,6 +18,6 @@ class Solution {
 
         list.add(prev);
 
-        return list.toArray(new int[list.size()][]);
+        return list.toArray(new int[list.size()][1]);
     }
 }
