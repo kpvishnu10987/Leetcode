@@ -8,8 +8,6 @@ class Solution {
             if(dig > max){
                 smax = max;
                 max = dig;
-            }else if(dig == max){
-                smax = max;
             }else{
                 if(dig > smax){
                     smax = dig;
