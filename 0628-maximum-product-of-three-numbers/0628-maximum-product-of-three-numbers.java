@@ -1,25 +1,32 @@
 class Solution {
     public int maximumProduct(int[] nums) {
-        PriorityQueue<Integer> h1 = new PriorityQueue<>();
-        PriorityQueue<Integer> h2 = new PriorityQueue<>(Collections.reverseOrder());
+        int n = nums.length;
+        int l1 = Integer.MIN_VALUE;
+        int l2 = Integer.MIN_VALUE;
+        int l3 = Integer.MIN_VALUE;
+        int s1 = Integer.MAX_VALUE;
+        int s2 = Integer.MAX_VALUE;
+
         for(int num : nums){
-            h1.offer(num);
-            h2.offer(num);
+            if(num > l1){
+                l3 = l2;
+                l2 = l1;
+                l1 = num;
+            }else if(num > l2){
+                l3 = l2;
+                l2 = num;
+            }else if(num > l3){
+                l3 = num;
+            }
 
-            if(h1.size() > 3) h1.poll();
-            if(h2.size() > 2) h2.poll();
+            if(num < s1){
+                s2 = s1;
+                s1 = num;
+            }else{
+                s2 = Math.min(s2,num);
+            }
         }
 
-        int ans1 = 1;
-        int ans2 = 1;
-        while(!h1.isEmpty()){
-            if(h1.size() == 1) ans2 *= h1.peek();
-            ans1 *= h1.poll();
-        }
-
-        while(!h2.isEmpty()){
-            ans2 *= h2.poll();
-        }
-        return Math.max(ans1,ans2);
+        return Math.max(l1*l2*l3,l1*s1*s2);
     }
 }
