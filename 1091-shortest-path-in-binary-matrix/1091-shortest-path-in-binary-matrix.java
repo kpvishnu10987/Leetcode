@@ -5,7 +5,6 @@ class Solution {
 
         if(grid[0][0] == 1 || grid[n-1][m-1] ==1) return -1;
 
-        boolean vis[][] = new boolean[n][m];
 
         Queue<int[]> q = new LinkedList<>();
         q.offer(new int[] { 0, 0 });
@@ -24,8 +23,8 @@ class Solution {
                 for (int i = 0; i < 8; i++) {
                     int nr = node[0] + drow[i];
                     int nc = node[1] + dcol[i];
-                    if (nr >= 0 && nr <= n - 1 && nc >= 0 && nc <= m - 1 && vis[nr][nc] == false && grid[nr][nc] == 0) {
-                        vis[nr][nc] = true;
+                    if (nr >= 0 && nr <= n - 1 && nc >= 0 && nc <= m - 1 && grid[nr][nc] == 0) {
+                        grid[nr][nc] = 1;
                         q.offer(new int[] { nr, nc });
                     }
                 }
