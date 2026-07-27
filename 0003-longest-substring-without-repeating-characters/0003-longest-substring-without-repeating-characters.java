@@ -4,18 +4,16 @@ class Solution {
 
         int max = 0;
 
-        Set<Character> set = new HashSet<>();
+        Map<Character,Integer> map = new HashMap<>();
         int l = 0;
 
         for(int i = 0 ; i<n ; i++){
             char rc = s.charAt(i);
 
-            while(set.contains(rc)){
-                char lc = s.charAt(l);
-                set.remove(lc);
-                l++;
+            if(map.containsKey(rc)){
+                l = Math.max(l,map.get(rc)+1);
             }
-            set.add(rc);
+            map.put(rc,i);
             max = Math.max(max,i-l+1);
         }
 
