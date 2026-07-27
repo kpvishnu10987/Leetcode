@@ -1,43 +1,49 @@
 class Solution {
-    List<List<Integer>> graph;
-    boolean vis[];
+    int[] par;
+    int[] size;
     public int findCircleNum(int[][] isConnected) {
-        graph = new ArrayList<>();
         int n = isConnected.length;
+        int m = isConnected[0].length;
+        par = new int[n];
+        size = new int[n];
+
         for(int i = 0 ; i<n ; i++){
-            graph.add(new ArrayList<>());
+            par[i] = i;
+            size[i] = 1;
         }
+
         for(int i = 0 ; i<n ; i++){
-            for(int j = 0 ; j<n ; j++){
+            for(int j = 0 ; j<m ; j++){
                 if(isConnected[i][j] == 1){
-                    graph.get(i).add(j);
+                    if(find(i) == find(j)) continue;
+                    union(i,j);
                 }
             }
         }
-
-        vis = new boolean[n];
-        int comp = 0;
-
-
-
-        for(int i = 0 ; i<n ;i++){
-            if(!vis[i]){
-                comp++;
-                dfs(i);
-            }
+        Set<Integer> set = new HashSet<>();
+        for(int i = 0 ; i<n ; i++){
+            set.add(find(i));
         }
 
-        return comp;
+        return set.size();
+
     }
 
-    private void dfs(int i){
-        vis[i] = true;
+    private int find(int x){
+        if(par[x] == x) return x;
+        return par[x] = find(par[x]);
+    }
 
-        for(int nei : graph.get(i)){
-            if(!vis[nei]){
-                dfs(nei);
+    private void union(int u,int v){
+        int pu = find(u);
+        int pv = find(v);
 
-            }
+        if(size[pu] > size[pv]){
+            par[pv] = pu;
+            size[pu] += size[pv];
+        }else{
+            par[pu] = pv;
+            size[pv] += size[pu];
         }
     }
 }
