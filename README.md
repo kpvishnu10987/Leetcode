@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0994-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kpvishnu10987/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/kpvishnu10987/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -636,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/kpvishnu10987/Leetcode/tree/master/0827-making-a-large-island) |
 | [0909-snakes-and-ladders](https://github.com/kpvishnu10987/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/kpvishnu10987/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
@@ -1009,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0886-possible-bipartition](https://github.com/kpvishnu10987/Leetcode/tree/master/0886-possible-bipartition) |
 | [0909-snakes-and-ladders](https://github.com/kpvishnu10987/Leetcode/tree/master/0909-snakes-and-ladders) |
+| [0994-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/kpvishnu10987/Leetcode/tree/master/1073-number-of-enclaves) |
