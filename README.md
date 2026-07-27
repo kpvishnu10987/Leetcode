@@ -756,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/kpvishnu10987/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/kpvishnu10987/Leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kpvishnu10987/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -951,6 +952,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/kpvishnu10987/Leetcode/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kpvishnu10987/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/kpvishnu10987/Leetcode/tree/master/0801-is-graph-bipartite) |
@@ -1001,6 +1003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/kpvishnu10987/Leetcode/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kpvishnu10987/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0752-open-the-lock](https://github.com/kpvishnu10987/Leetcode/tree/master/0752-open-the-lock) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
@@ -1102,6 +1105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kpvishnu10987/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -1121,6 +1125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/kpvishnu10987/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kpvishnu10987/Leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0841-keys-and-rooms](https://github.com/kpvishnu10987/Leetcode/tree/master/0841-keys-and-rooms) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0886-possible-bipartition](https://github.com/kpvishnu10987/Leetcode/tree/master/0886-possible-bipartition) |
