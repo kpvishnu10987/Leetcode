@@ -1,28 +1,28 @@
 class Solution {
-    int n;
-    int m;
+    int[] drow = {-1,1,0,0};
+    int[] dcol = {0,0,-1,1};
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        n = heights.length;
-        m = heights[0].length;
+        int n = heights.length;
+        int m = heights[0].length;
+
+        boolean[][] at = new boolean[n][m];
+        boolean[][] pa = new boolean[n][m];
+
+        for(int i = 0 ; i<n ; i++){
+            dfs(i,0,heights,pa);
+            dfs(i,m-1,heights,at);
+        }
+
+        for(int i = 0 ; i<m ; i++){
+            dfs(0,i,heights,pa);
+            dfs(n-1,i,heights,at);
+        }
 
         List<List<Integer>> ans = new ArrayList<>();
-        boolean[][] pacific = new boolean[n][m];
-        boolean[][] atlantic = new boolean[n][m];
-
-        for(int c = 0; c < m; c++){
-    dfs(0, c, pacific, heights);
-    dfs(n - 1, c, atlantic, heights);
-}
-
-for(int r = 0; r < n; r++){
-    dfs(r, 0, pacific, heights);
-    dfs(r, m - 1, atlantic, heights);
-}
-        
         for(int i = 0 ; i<n ; i++){
-            for(int j=0 ; j<m ; j++){
-                if(pacific[i][j] && atlantic[i][j]){
-                    ans.add(Arrays.asList(i,j));
+            for(int j = 0 ; j<m ; j++){
+                if(pa[i][j] && at[i][j]){
+                    ans.add(new ArrayList<>(List.of(i,j)));
                 }
             }
         }
@@ -30,22 +30,18 @@ for(int r = 0; r < n; r++){
         return ans;
     }
 
-    private void dfs(int i,int j,boolean[][] ocean,int[][] heights){
-        ocean[i][j] = true;
-        int[] drow = {-1,0,1,0};
-        int[] dcol = {0,1,0,-1};
+    private void dfs(int i,int j,int[][] grid,boolean[][] vis){
+        if(vis[i][j]) return;
+        vis[i][j] = true;
 
-        for(int k = 0  ; k<4 ; k++){
-            int r = drow[k] + i;
-            int c = dcol[k] + j;
-
-            if(r < 0 || r > n-1 || c < 0 || c > m-1 || ocean[r][c] || heights[r][c] < heights[i][j]){
-                continue;
+        for(int k = 0 ; k<4 ; k++){
+            int r = i + drow[k];
+            int c = j + dcol[k];
+            if(r >=0 && r <grid.length && c >=0  && c < grid[0].length && vis[r][c] == false){
+                if(grid[r][c] >= grid[i][j]){
+                    dfs(r,c,grid,vis);
+                }
             }
-
-            dfs(r,c,ocean,heights);
         }
     }
-
-    
 }
