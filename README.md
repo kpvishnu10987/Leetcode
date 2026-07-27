@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/kpvishnu10987/Leetcode/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kpvishnu10987/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/kpvishnu10987/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -741,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/kpvishnu10987/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0567-permutation-in-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -788,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/kpvishnu10987/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/kpvishnu10987/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kpvishnu10987/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -809,6 +812,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/kpvishnu10987/Leetcode/tree/master/0792-binary-search) |
 | [0887-super-egg-drop](https://github.com/kpvishnu10987/Leetcode/tree/master/0887-super-egg-drop) |
+| [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/kpvishnu10987/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
