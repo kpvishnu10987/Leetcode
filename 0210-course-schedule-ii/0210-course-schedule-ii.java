@@ -1,56 +1,46 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int n = numCourses;
-        List<List<Integer>> adj = new ArrayList<>();
+        int[] ans = new int[n];
+        int idx = 0;
 
-        for(int i =0 ; i<n  ; i++){
-            adj.add(new ArrayList<>());
+       int[] in = new int[n];
+
+       Stack<Integer> st = new Stack<>();
+       List<List<Integer>> graph = new ArrayList<>();
+
+       for(int i = 0 ; i<n ;i++){
+            graph.add(new ArrayList<>());
+       }
+
+       for(int i = 0 ; i<prerequisites.length ; i++){
+            int[] e = prerequisites[i];
+            graph.get(e[1]).add(e[0]);
+            in[e[0]]++;
+       } 
+
+       for(int i = 0; i<n ; i++){
+        if(in[i] == 0){
+            st.push(i);
+            ans[idx++]  = i;
         }
+       }
 
-        for(int i = 0; i<prerequisites.length; i++){
-            int a = prerequisites[i][0];
-            int b = prerequisites[i][1];
-
-            adj.get(b).add(a);
-        }
-
-        List<Integer> topo = new ArrayList<>();
-        int[] in = new int[n];
-        for(int i = 0 ;i<n ;i++){
-            for(int it:adj.get(i)){
-                in[it]++;
+       while(!st.isEmpty()){
+        int node = st.pop();
+        for(int nei : graph.get(node)){
+            in[nei]--;
+            if(in[nei] == 0){
+                st.push(nei);
+                ans[idx++] = nei;
             }
         }
-        Queue<Integer> q = new LinkedList<>();
-        for(int i = 0 ;i<n ;i++){
-            if(in[i] == 0){
-                q.add(i);
-            }
-        }
+       }
 
-        while(!q.isEmpty()){
-            int node = q.poll();
-            topo.add(node);
+       for(int i = 0 ; i<n ;i++){
+        if(in[i] > 0) return new int[0];
+       }
 
-            for(int it : adj.get(node)){
-                in[it]--;
-                if(in[it] == 0){
-                    q.add(it);
-                }
-            }
-
-        }
-        int[] arr = new int[topo.size()];
-
-for (int i = 0; i < topo.size(); i++) {
-    arr[i] = topo.get(i);
-}
-    int[] a =  new int[0];
-
-        return (arr.length == n)?arr:a;
-
-
-
-        
+       return ans;
     }
 }
