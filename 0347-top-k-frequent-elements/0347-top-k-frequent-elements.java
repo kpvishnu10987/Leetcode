@@ -8,24 +8,31 @@ class Solution {
             map.put(num,map.getOrDefault(num,0)+1);
         }
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->a[1]-b[1]);
+        List<Integer>[] bucket = new ArrayList[n+1];
 
         for(Map.Entry<Integer,Integer> entry : map.entrySet()){
-            pq.offer(new int[]{entry.getKey(),entry.getValue()});
-            if(pq.size() > k) pq.poll();
+            int key = entry.getKey();
+            int freq = entry.getValue();
+
+            if(bucket[freq] == null){
+                bucket[freq] = new ArrayList<>();
+            }
+            bucket[freq].add(key);
         }
 
         int[] ans = new int[k];
+        int idx = 0;
 
-        for(int i = 0 ; i<k ;i++){
-            ans[i] = pq.poll()[0];
+        for(int i = n ; i >=0 && idx < k;i--){
+            if(bucket[i] == null) continue;
+
+            for(int key : bucket[i]){
+                ans[idx] = key;
+                idx++;
+                if(idx == k) break;
+            }
         }
 
-        return ans;
-
-
-
-
-        
+        return ans; 
     }
 }
