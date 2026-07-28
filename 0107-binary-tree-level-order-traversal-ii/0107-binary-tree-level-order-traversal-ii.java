@@ -18,6 +18,7 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
 
         f(ans,root,0);
+        Collections.reverse(ans);
         return ans;
     }
 
@@ -25,10 +26,10 @@ class Solution {
         if(root == null) return;
 
         if(level == ans.size()){
-            ans.add(0,new ArrayList<>());
+            ans.add(new ArrayList<>());
         }
 
-        ans.get(ans.size()-1-level).add(root.val);
+        ans.get(level).add(root.val);
 
         f(ans,root.left,level+1);
         f(ans,root.right,level+1);
