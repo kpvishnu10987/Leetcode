@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/kpvishnu10987/Leetcode/tree/master/0827-making-a-large-island) |
 | [0853-car-fleet](https://github.com/kpvishnu10987/Leetcode/tree/master/0853-car-fleet) |
 | [0860-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0860-lemonade-change) |
+| [0875-koko-eating-bananas](https://github.com/kpvishnu10987/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
 | [0881-boats-to-save-people](https://github.com/kpvishnu10987/Leetcode/tree/master/0881-boats-to-save-people) |
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
@@ -819,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/kpvishnu10987/Leetcode/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/kpvishnu10987/Leetcode/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/kpvishnu10987/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0887-super-egg-drop](https://github.com/kpvishnu10987/Leetcode/tree/master/0887-super-egg-drop) |
 | [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/kpvishnu10987/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
