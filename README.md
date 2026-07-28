@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/kpvishnu10987/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3617-find-the-original-typed-string-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -609,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/kpvishnu10987/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -1210,4 +1212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/kpvishnu10987/Leetcode/tree/master/0218-the-skyline-problem) |
+## Counting Sort
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 <!---LeetCode Topics End-->
