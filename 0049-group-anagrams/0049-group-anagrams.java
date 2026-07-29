@@ -4,9 +4,17 @@ class Solution {
         Map<String,List<String>> map = new HashMap<>();
 
         for(String s : strs){
-            char[] arr = s.toCharArray();
-            Arrays.sort(arr);
-            String key = new String(arr);
+            int[] freq = new int[26];
+            for(int i = 0 ; i<s.length() ; i++){
+                freq[s.charAt(i)-'a']++;
+            }
+
+            StringBuilder sb = new StringBuilder();
+
+            for(int x : freq){
+                sb.append(x).append('&');
+            }
+            String key = sb.toString();
 
             if(!map.containsKey(key)) map.put(key,new ArrayList<>());
             List<String> sub = map.get(key);
