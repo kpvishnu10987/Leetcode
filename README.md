@@ -1196,6 +1196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0626-exchange-seats](https://github.com/kpvishnu10987/Leetcode/tree/master/0626-exchange-seats) |
 | [1211-queries-quality-and-percentage](https://github.com/kpvishnu10987/Leetcode/tree/master/1211-queries-quality-and-percentage) |
 | [1251-average-selling-price](https://github.com/kpvishnu10987/Leetcode/tree/master/1251-average-selling-price) |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/kpvishnu10987/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1517-find-users-with-valid-e-mails](https://github.com/kpvishnu10987/Leetcode/tree/master/1517-find-users-with-valid-e-mails) |
 | [1757-recyclable-and-low-fat-products](https://github.com/kpvishnu10987/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/kpvishnu10987/Leetcode/tree/master/1978-employees-whose-manager-left-the-company) |
