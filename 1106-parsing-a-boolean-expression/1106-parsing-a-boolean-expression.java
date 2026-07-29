@@ -1,40 +1,40 @@
 class Solution {
-    public boolean parseBoolExpr(String expression) {
-        Deque<Character> st =  new ArrayDeque<>();
+    public boolean parseBoolExpr(String s) {
+        int n = s.length();
 
-        for(char c : expression.toCharArray()){
-            if(c == ',') continue;
-            
-            if(c == ')'){
-                List<Character> vals = new ArrayList<>();
+        Stack<Character> st = new Stack<>();
+
+        for(char c : s.toCharArray()){
+            if(c != ')'){
+                st.push(c);
+            }else{
+                List<Character> list = new ArrayList<>();
+
                 while(st.peek() != '('){
-                    vals.add(st.pop());
+                    list.add(st.pop());
                 }
                 st.pop();
-                char ops = st.pop();
-                char res = eval(ops,vals);
-                st.push(res);
-            }else{
-                st.push(c);
+                char op = st.pop();
+                st.push(operation(list,op));
             }
         }
-        char c =  st.pop();
-        if(c == 't') return true;
-        return false;
+        return st.pop() == 't' ? true : false;
     }
-    private char eval(char ops,List<Character> vals){
-        if(ops == '!'){
-            return vals.get(0) == 't'?'f':'t';
-        }else if(ops == '|'){
-            for(char c : vals){
-                if(c == 't') return 't';
-            }
-            return 'f';
-        }else{
-            for(char c : vals){
+
+    private char operation(List<Character> list,char op){
+        if(op == '!') return list.get(0) == 't'?'f':'t';
+
+        if(op == '&'){
+            for(char c : list){
                 if(c == 'f') return 'f';
             }
+
             return 't';
         }
+
+        for(char c : list){
+            if(c == 't') return 't';
+        }
+        return 'f';
     }
 }
