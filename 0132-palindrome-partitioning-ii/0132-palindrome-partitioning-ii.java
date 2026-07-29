@@ -1,37 +1,40 @@
 class Solution {
-    boolean[][] isPalin;
-    int[] memo;
     String s;
+    int[][] dp;
     public int minCut(String s) {
         int n = s.length();
         this.s = s;
-        isPalin = new boolean[n][n];
-        memo = new int[n];
-        Arrays.fill(memo,-1);
-        for(int i = n-1; i>=0 ; i--){
-            for(int j = i ; j<n ; j++){
-                if(s.charAt(i) == s.charAt(j) && (j-i <= 2 || isPalin[i+1][j-1])){
-                    isPalin[i][j] = true;
-                }
-            }
+        dp = new int[n][n];
+        for(int[] r : dp){
+            Arrays.fill(r,-1);
         }
-
-        return dp(0);
+        return f(0,n-1);
     }
-    private int dp(int i){
-        int n = s.length();
-        if(isPalin[i][n-1]) return 0;
-        if(memo[i] != -1) return memo[i];
 
-        int min = Integer.MAX_VALUE;
+    private int f(int i,int j){
+        if(i >= j) return 0;
+        if(isPalin(s,i,j)) return 0;
 
-        for(int k = i ;k<n ; k++){
-            if(isPalin[i][k]){
-                int cuts = 1+dp(k+1);
-                min = Math.min(cuts,min);
+        if(dp[i][j] != -1) return dp[i][j];
+
+        int ways = Integer.MAX_VALUE;
+
+        for(int k = i; k<j ; k++){
+            if(isPalin(s,i,k)){
+                ways = Math.min(ways,1 + f(k+1,j));
             }
         }
 
-        return memo[i] = min;
+        return dp[i][j] = ways;
+    }
+
+    private boolean isPalin(String s,int i,int j){
+        int l = i;
+        int r = j;
+
+        while(l < r){
+            if(s.charAt(l++) != s.charAt(r--)) return false;
+        }
+        return true;
     }
 }
