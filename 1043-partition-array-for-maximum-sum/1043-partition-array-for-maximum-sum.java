@@ -1,28 +1,30 @@
 class Solution {
+    int[] dp;
+    int n;
     int[] arr;
-    int[] memo;
-    
+    int k;
     public int maxSumAfterPartitioning(int[] arr, int k) {
-        int n = arr.length;
-
         this.arr = arr;
-        this.memo = new int[n];
-        Arrays.fill(memo,-1);
-        return dp(n-1,k);
+        this.k = k;
+        n = arr.length;
+        dp = new int[n];
+        Arrays.fill(dp,-1);
+
+        return f(0);
     }
-    private int dp(int i,int k){
-        if(i<0) return 0;
-        if(memo[i] != -1) return memo[i];
+
+    private int f(int i){
+        if(i == n) return 0;
+        if(dp[i] != -1) return dp[i];
 
         int max = 0;
-        int curmax = 0;
+        int ans = 0;
 
-        for(int len = 1; len <= k && i-len+1 >=0 ; len++){
-            curmax = Math.max(curmax,arr[i-len+1]);
-            int score = dp(i-len,k)+curmax*len;
-            max = Math.max(score,max);
+        for(int j = i ; j<=Math.min(n-1,i+k-1) ; j++){
+            max = Math.max(max,arr[j]);
+            ans = Math.max(ans,max * (j-i+1) + f(j+1));
         }
 
-        return memo[i] = max;
+        return dp[i] = ans;
     }
 }
