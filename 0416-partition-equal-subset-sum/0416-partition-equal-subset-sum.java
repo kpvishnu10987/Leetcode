@@ -1,34 +1,41 @@
 class Solution {
+    int n;
+    Boolean[][] dp;
+    int[] nums;
     public boolean canPartition(int[] nums) {
-        int n = nums.length;
-        int tot = 0;
-        for(int num : nums){
-            tot += num;
-        }
-        if(tot%2 != 0) return false;
-        int target = tot/2;
+        this.nums = nums;
+        n = nums.length;
+      
 
-        boolean [][] dp = new boolean[n][target+1];
+        int sum = 0;
+        for(int i = 0 ; i<n ;i++){
+            sum += nums[i];
+        }
 
-        for(int i = 0; i<n ; i++){
-            dp[i][0] = true;
-        }
-        if (nums[0] <= target){
+        if(sum % 2 != 0) return false;
 
-    dp[0][nums[0]] = true;
+        sum /= 2;
+        dp = new Boolean[n][sum+1];
+
+        return f(0,sum);
+    }
+
+    private boolean f(int i,int k){
+        if(i == n){
+            if(k == 0) return true;
+            return false;
         }
-        
-        for(int i = 1 ; i<n ; i++){
-            for(int tar = 1; tar <= target ; tar++){
-                boolean notTake = dp[i-1][tar];
-                boolean take = false;
-                if(nums[i] <= tar){
-                    take = dp[i-1][tar-nums[i]];
-                }
-                dp[i][tar] = take || notTake;
-            }
-        }
-        return dp[n-1][target];
-        
+        if(k < 0) return false;
+
+        if(dp[i][k] != null) return dp[i][k]; 
+
+
+        boolean ans = false;
+
+
+        ans |= f(i+1,k-nums[i]);
+        ans |= f(i+1,k);
+
+        return dp[i][k] =  ans;
     }
 }
