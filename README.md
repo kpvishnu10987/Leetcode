@@ -352,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2140-solving-questions-with-brainpower](https://github.com/kpvishnu10987/Leetcode/tree/master/2140-solving-questions-with-brainpower) |
 | [2145-count-the-hidden-sequences](https://github.com/kpvishnu10987/Leetcode/tree/master/2145-count-the-hidden-sequences) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kpvishnu10987/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2140-solving-questions-with-brainpower](https://github.com/kpvishnu10987/Leetcode/tree/master/2140-solving-questions-with-brainpower) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/kpvishnu10987/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/kpvishnu10987/Leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
