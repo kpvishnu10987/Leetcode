@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/kpvishnu10987/Leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1765-map-of-highest-peak](https://github.com/kpvishnu10987/Leetcode/tree/master/1765-map-of-highest-peak) |
@@ -463,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kpvishnu10987/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/kpvishnu10987/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/kpvishnu10987/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -626,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [2931-maximum-spending-after-buying-items](https://github.com/kpvishnu10987/Leetcode/tree/master/2931-maximum-spending-after-buying-items) |
@@ -847,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/kpvishnu10987/Leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/kpvishnu10987/Leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
