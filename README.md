@@ -328,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
@@ -453,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/kpvishnu10987/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1170-shortest-common-supersequence](https://github.com/kpvishnu10987/Leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1301-number-of-paths-with-max-score](https://github.com/kpvishnu10987/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -616,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1331-rank-transform-of-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -842,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/kpvishnu10987/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1753-path-with-minimum-effort](https://github.com/kpvishnu10987/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/kpvishnu10987/Leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
