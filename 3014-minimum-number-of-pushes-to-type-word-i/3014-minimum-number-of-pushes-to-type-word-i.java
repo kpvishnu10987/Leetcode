@@ -1,13 +1,9 @@
 class Solution {
     public int minimumPushes(String word) {
-        Set<Character> set = new HashSet<>();
-        for(char c: word.toCharArray()){
-            set.add(c);
-        }
+        int size = word.length();
 
-        if(set.size() < 9) return set.size();
+        if(size < 9) return size;
 
-        int size = set.size();
         int i = 1;
         int ans = 0;
 
