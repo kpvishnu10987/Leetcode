@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/kpvishnu10987/Leetcode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kpvishnu10987/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/kpvishnu10987/Leetcode/tree/master/0670-maximum-swap) |
+| [0877-stone-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0877-stone-game) |
 | [0887-super-egg-drop](https://github.com/kpvishnu10987/Leetcode/tree/master/0887-super-egg-drop) |
 | [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/kpvishnu10987/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/kpvishnu10987/Leetcode/tree/master/0876-hand-of-straights) |
+| [0877-stone-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/kpvishnu10987/Leetcode/tree/master/0881-boats-to-save-people) |
 | [0890-lemonade-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0890-lemonade-change) |
 | [0909-snakes-and-ladders](https://github.com/kpvishnu10987/Leetcode/tree/master/0909-snakes-and-ladders) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0790-domino-and-tromino-tiling](https://github.com/kpvishnu10987/Leetcode/tree/master/0790-domino-and-tromino-tiling) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [0877-stone-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0877-stone-game) |
 | [0887-super-egg-drop](https://github.com/kpvishnu10987/Leetcode/tree/master/0887-super-egg-drop) |
 | [0943-sum-of-subarray-minimums](https://github.com/kpvishnu10987/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -1285,4 +1288,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/kpvishnu10987/Leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/kpvishnu10987/Leetcode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
