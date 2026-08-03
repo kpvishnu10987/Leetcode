@@ -3,20 +3,18 @@ class Solution {
         int n = s.length();
         int m = t.length();
         int i = 0;
-        int j = 0;
         StringBuilder sb = new StringBuilder();
 
-        while(i<n && j < m){
-            sb.append(s.charAt(i++));
-            sb.append(t.charAt(j++));
-        }
+        while(i < n || i < m){
+            if(i < n){
+                sb.append(s.charAt(i));
+            }
 
-        while(i < n){
-            sb.append(s.charAt(i++));
-        }
+            if(i < m){
+                sb.append(t.charAt(i));
+            }
 
-        while(j < m){
-            sb.append(t.charAt(j++));
+            i++;
         }
 
         return sb.toString();
