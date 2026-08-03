@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0887-super-egg-drop](https://github.com/kpvishnu10987/Leetcode/tree/master/0887-super-egg-drop) |
 | [0939-minimum-area-rectangle](https://github.com/kpvishnu10987/Leetcode/tree/master/0939-minimum-area-rectangle) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/kpvishnu10987/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1406-stone-game-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1406-stone-game-iii) |
 | [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kpvishnu10987/Leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/kpvishnu10987/Leetcode/tree/master/0752-open-the-lock) |
 | [0953-verifying-an-alien-dictionary](https://github.com/kpvishnu10987/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/kpvishnu10987/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1078-remove-outermost-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1106-parsing-a-boolean-expression](https://github.com/kpvishnu10987/Leetcode/tree/master/1106-parsing-a-boolean-expression) |
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
@@ -1303,4 +1305,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/kpvishnu10987/Leetcode/tree/master/1406-stone-game-iii) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/kpvishnu10987/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/kpvishnu10987/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
