@@ -4,17 +4,14 @@ class Solution {
 
         int l = 0;
 
-        for(int r = 0 ; r<n ; r++){
-            if(nums[r] != 0){
-                nums[l++] = nums[r];
+        for(int i = 0 ; i<n ;i++){
+            if(nums[i] != 0){
+                nums[l++] = nums[i]; 
             }
         }
 
-        
-
-        for(int i = l ;i<n ; i++){
-            nums[i] = 0;
-        }
-
+        while(l < n){
+            nums[l++] = 0;
+        }   
     }
 }
