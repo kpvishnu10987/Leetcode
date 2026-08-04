@@ -18,6 +18,10 @@ class Solution {
                     q.offer(new int[] { i, j });
 
                     while (!q.isEmpty()) {
+                        int size = q.size();
+                        for(int k = 0 ; k<size; k++){
+
+                        
 
                         int[] cur = q.poll();
                         int r = cur[0];
@@ -31,6 +35,7 @@ class Solution {
                                 vis[nr][nc] = true;
                                 q.offer(new int[] { nr, nc });
                             }
+                        }
                         }
                     }
                 }
