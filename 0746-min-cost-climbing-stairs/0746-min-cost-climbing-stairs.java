@@ -7,18 +7,16 @@ class Solution {
         n = cost.length;
         dp =new int[n];
 
-        Arrays.fill(dp,-1);
+        dp[0] = cost[0];
+        dp[1] = cost[1];
 
-        return Math.min(f(0),f(1));
+        for(int i = 2 ; i<n ; i++){
+            int one = cost[i] + dp[i-1];
+            int two = cost[i] + dp[i-2];
+            dp[i] = Math.min(one,two);
+        }
+
+        return Math.min(dp[n-1],dp[n-2]);
     }
-    private int f(int i){
-        if(i >= n) return 0;
-
-        if(dp[i] != -1) return dp[i];
-
-        int one = cost[i] + f(i+1);
-        int two = cost[i] + f(i+2);
-
-        return dp[i] = Math.min(one,two);
-    }
+    
 }
