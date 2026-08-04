@@ -1,42 +1,36 @@
-class Node{
-    String word;
-    int steps;
-    Node(String word,int steps){
-        this.word = word;
-        this.steps = steps;
-    }
-}
-
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> wordset = new HashSet<>(wordList);
-        if(!wordset.contains(endWord)) return 0;
+        Set<String> set = new HashSet<>(wordList);
 
-        Queue<Node> q = new LinkedList<>();
-        q.offer(new Node(beginWord,1));
-        wordset.remove(beginWord);
+        Queue<String> q = new LinkedList<>();
 
-        while(!q.isEmpty()){
-            String w = q.peek().word;
-            int st = q.peek().steps;
-            q.poll();
-            if(w.equals(endWord)) return st;
+        if (!set.contains(endWord))
+            return 0;
 
+        q.offer(beginWord);
+        int len = 1;
 
-            char[] arr = w.toCharArray();
-            for(int i = 0 ; i<arr.length; i++){
-                char original = arr[i];
-                for(char c= 'a' ; c <= 'z' ; c++){
-                    if(c == original) continue;
+        while (!q.isEmpty()) {
+            int size = q.size();
+            len++;
+            while (size-- > 0) {
+                String word = q.poll();
+                char[] arr = word.toCharArray();
 
-                    arr[i] = c;
-                    String temp = new String(arr);
-                    if(wordset.contains(temp)){
-                        q.offer(new Node(temp,st+1));
-                        wordset.remove(temp);
+                for (int i = 0; i < arr.length; i++) {
+                    char ori = arr[i];
+                    for (int j = 'a'; j <= 'z'; j++) {
+                        arr[i] = (char) j;
+                        String newword = new String(arr);
+                        if (newword.equals(endWord))
+                            return len;
+                        if (set.contains(newword)) {
+                            set.remove(newword);
+                            q.offer(newword);
+                        }
                     }
+                    arr[i] = ori;
                 }
-                arr[i] = original;
             }
         }
 
