@@ -1,18 +1,26 @@
 class Solution {
-    int ans = 0;
     public int countSubstrings(String s) {
-        for(int i = 0 ; i<s.length() ; i++){
-            expand(s,i,i);
-            expand(s,i,i+1);
-        }
-        return ans;
-    }
+        int n = s.length();
 
-    private void expand(String s,int l,int r){
-        while(l >=0 && r < s.length() && s.charAt(l) == s.charAt(r)){
-            ans++;
-            l--;
-            r++;
+        int ans = 0;
+        boolean[][] dp = new boolean[n][n];
+
+        for(int len =  1; len <= n ; len++){
+            for(int i = 0 ; i+len-1 < n ; i++){
+                int j = i + len -1;
+
+                if(len == 1){
+                    dp[i][j] = true;
+                }else if(len == 2){
+                    dp[i][j] = s.charAt(i) == s.charAt(j);
+                }else{
+                    dp[i][j] = s.charAt(i) == s.charAt(j) && dp[i+1][j-1];
+                }
+
+                if(dp[i][j]) ans++;
+            }
         }
+
+        return ans;
     }
 }
