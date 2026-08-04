@@ -1,21 +1,34 @@
 class Solution {
+    int dp1[];
+    int dp2[];
     public int rob(int[] nums) {
         int n = nums.length;
-
+        dp1 = new int[n];
+        dp2 = new int[n];
         if(n == 1) return nums[0];
 
-        return Math.max(dfs(nums,0,n-2),dfs(nums,1,n-1));
-    }
+        Arrays.fill(dp1,-1);
+        Arrays.fill(dp2,-1);
 
-    private int dfs(int[] nums,int start,int end){
-        int prev1 = 0;
-        int prev2 = 0;
-        for(int i = start ; i<=end ; i++){
-            int cur = Math.max(prev1,nums[i]+prev2);
-            prev2 = prev1;
-            prev1 = cur;
+        int[] arr1 = new int[n-1];
+        int[] arr2 = new int[n-1];
+
+        for(int i = 0 ;i<n-1 ;i++){
+            arr1[i] = nums[i+1];
+            arr2[i] = nums[i];
         }
 
-        return prev1;
+        return Math.max(f(0,arr1,dp1),f(0,arr2,dp2)); 
+    }
+
+    private int f(int i,int[] arr,int[] dp){
+        if(i >= arr.length) return 0;
+        if(dp[i] != -1) return dp[i];
+
+        int t = arr[i] + f(i+2,arr,dp);
+        int nt = f(i+1,arr,dp);
+
+
+        return dp[i] = Math.max(t,nt);
     }
 }
