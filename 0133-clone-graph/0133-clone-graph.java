@@ -27,13 +27,7 @@ class Solution {
         Node clone = new Node(node.val);
         map.put(node,clone);
         for(Node nei : node.neighbors){
-            map.put(nei,cloneGraph(nei));
-        }
-
-        List<Node> neigh = new ArrayList<>();
-
-        for(Node nei : node.neighbors){
-            clone.neighbors.add(map.get(nei));
+            clone.neighbors.add(cloneGraph(nei));
         }
 
         return clone;
