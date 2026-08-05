@@ -37,11 +37,10 @@ class Solution {
         if(a != c && b != c) return dp[i][j] = false;
         boolean ans = false;
 
-        if(a == c && b == c){
-            ans |= f(i+1,j) || f(i,j+1);
-        }else if(a == c){
+        if(a == c){
             ans |= f(i+1,j);
-        }else if(b == c){
+        }
+        if(b == c){
             ans |= f(i,j+1);
         }
 
