@@ -24,10 +24,9 @@ class Solution {
 
         if(s.charAt(i) == t.charAt(j)){
             ans += f(i+1,j+1);
-            ans += f(i+1,j);
-        }else{
-            ans += f(i+1,j);
         }
+        ans += f(i+1,j);
+        
 
         return dp[i][j] = ans;
     }
