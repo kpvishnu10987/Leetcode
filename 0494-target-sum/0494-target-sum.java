@@ -1,23 +1,38 @@
 class Solution {
+    int n;
+    int max;
+    int nums[];
+    int target;
+    int dp[][];
     public int findTargetSumWays(int[] nums, int target) {
-        int n = nums.length;
-        int totsum = 0;
-        for(int x : nums) totsum += x;
-        int s1 = totsum + target;
-        s1 = s1/2;
-        if((totsum+target)%2 != 0 || target > totsum || target < -totsum){
-            return 0;
-        }
-        int dp[] = new int[s1+1];
-        dp[0] = 1;
-
+        this.nums = nums;
+        n = nums.length;
+        this.target = target;
         for(int num : nums){
-            for(int sum = s1 ; sum >= num ; sum--){
-                
-                    dp[sum] += dp[sum-num];
-                
+            max += num;
+        }
+
+        dp = new int[n][2*max+1];
+
+        for(int[] r : dp) Arrays.fill(r,-1);
+
+        return f(0,0);
+    }
+
+    private int f(int i,int total){
+        if(i == n){
+            if(total == target){
+                return 1;
+            }else{
+                return 0;
             }
         }
-        return dp[s1];
+
+        if(dp[i][max + total] != -1) return dp[i][max+total];
+
+        int pos = f(i+1,total + nums[i]);
+        int neg = f(i+1,total - nums[i]);
+
+        return dp[i][max+total] = pos + neg;
     }
 }
