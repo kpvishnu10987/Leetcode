@@ -6,15 +6,12 @@ class Solution {
 
         for(int r = 0 ; r< n; r++){
             if(nums[r] == 0){
-                if(k > 0){
-                    k--;
-                }else{
-                    while(k <=0){
-                        if(nums[l] == 0) k++;
-                        l++;
-                    }
-                    k--;
-                }
+                k--;
+            }
+
+            while(k < 0){
+                if(nums[l] == 0) k++;
+                l++;
             }
 
             max = Math.max(max,r-l+1);
