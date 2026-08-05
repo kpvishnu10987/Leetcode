@@ -1,38 +1,35 @@
 class Solution {
+    int[] arr;
     int[][] dp;
     public int maxCoins(int[] nums) {
         int n = nums.length;
-        int[] arr = new int[n+2];
+        int m = n+2;
+
+        arr = new int[m];
         arr[0] = 1;
         arr[n+1] = 1;
+        dp = new int[m][m];
 
-        dp = new int[arr.length][arr.length];
-
-        for(int[] r : dp){
-            Arrays.fill(r,-1);
-        }
-
-        for(int i = 0 ; i<n ;i++){
+        for(int i = 0 ; i<n ; i++){
             arr[i+1] = nums[i];
         }
 
-        return f(arr,1,n);
+        for(int[] r: dp) Arrays.fill(r,-1);
 
-
+        return f(0,n+1);
+        
     }
-    private int f(int[] arr,int i,int j){
-        if(i >j) return 0;
+    private int f(int i,int j){
+        if(j == i+1) return 0;
 
         if(dp[i][j] != -1) return dp[i][j];
 
-        int cost = 0;
-        int max = Integer.MIN_VALUE;
+        int ans = 0;
+        for(int k = i+1; k<j ; k++){
+            int cost = arr[i] * arr[k] * arr[j] + f(i,k) + f(k,j);
+            ans = Math.max(cost,ans);
+        }
 
-        for(int k = i ; k<=j ; k++){
-            cost = arr[i-1] * arr[k] * arr[j+1] + f(arr,i,k-1) + f(arr,k+1,j);
-            max = Math.max(max,cost);
-        } 
-
-        return dp[i][j] =max;
+        return dp[i][j] = ans;
     }
 }
