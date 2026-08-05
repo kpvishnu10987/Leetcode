@@ -1,24 +1,34 @@
 class Solution {
+    String s;
+    String t;
+    int n;
+    int m;
+    int[][] dp;
     public int numDistinct(String s, String t) {
-        int n = s.length();
-        int m = t.length();
+        this.s = s;
+        this.t = t;
+        n = s.length();
+        m = t.length();
+        dp = new int[n][m];
+        for(int r[] : dp) Arrays.fill(r,-1);
 
-        int[][] dp = new int[n+1][m+1];
+        return f(0,0);
+    }
+    private int f(int i,int j){
+        if(j == m) return 1;
+        if(i == n) return 0;
 
-        for(int i = 0; i<n ; i++){
-            dp[i][0] = 1;
+        if(dp[i][j] != -1) return dp[i][j];
+
+        int ans = 0;
+
+        if(s.charAt(i) == t.charAt(j)){
+            ans += f(i+1,j+1);
+            ans += f(i+1,j);
+        }else{
+            ans += f(i+1,j);
         }
-        
-        for(int i = 1 ; i<=n ; i++){
-            for(int j = 1 ; j<=m ; j++){
-                if(s.charAt(i-1) == t.charAt(j-1)){
-                    dp[i][j] = dp[i-1][j-1] + dp[i-1][j];
-                }else{
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-        }
 
-        return dp[n][m];
+        return dp[i][j] = ans;
     }
 }
