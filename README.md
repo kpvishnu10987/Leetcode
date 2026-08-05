@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kpvishnu10987/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
+| [1207-unique-number-of-occurrences](https://github.com/kpvishnu10987/Leetcode/tree/master/1207-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kpvishnu10987/Leetcode/tree/master/1129-longest-string-chain) |
 | [1162-as-far-from-land-as-possible](https://github.com/kpvishnu10987/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kpvishnu10987/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1207-unique-number-of-occurrences](https://github.com/kpvishnu10987/Leetcode/tree/master/1207-unique-number-of-occurrences) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/kpvishnu10987/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/kpvishnu10987/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
