@@ -8,12 +8,12 @@ class Solution {
         List<Integer> ans2 = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
 
-        for(int num : nums1){
-            if(!set2.contains(num) && !ans1.contains(num)) ans1.add(num);
+        for(int num : set1){
+            if(!set2.contains(num)) ans1.add(num);
         }
 
-        for(int num :  nums2){
-            if(!set1.contains(num) && !ans2.contains(num)) ans2.add(num);
+        for(int num :  set2){
+            if(!set1.contains(num) ) ans2.add(num);
         }
 
         ans.add(new ArrayList<>(ans1));
