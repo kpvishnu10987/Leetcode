@@ -1,42 +1,36 @@
 class Solution {
-    String w1;
-    String w2;
+    String s;
+    String t;
     int n;
     int m;
     int[][] dp;
-    public int minDistance(String word1, String word2) {
-        w1 = word1;
-        w2 = word2;
-        n = w1.length();
-        m = w2.length();
+    public int minDistance(String s, String t) {
+        this.s = s;
+        this.t = t;
+        n = s.length();
+        m = t.length();
+
         dp = new int[n][m];
-        for(int[] r : dp){
-            Arrays.fill(r,-1);
-        }
+        for(int[] r : dp) Arrays.fill(r,-1);
 
-        return dfs(0,0);
+        return f(0,0);
+        
     }
-
-    private int dfs(int i,int j){
-        if(j == m){
-            if(i == n){
-                return 0;
-            }else{
-                return n-i;
-            }
-        }
+    private int f(int i,int j){
         if(i == n) return m-j;
+        if(j == m) return n-i;
 
         if(dp[i][j] != -1) return dp[i][j];
 
+        if(s.charAt(i) == t.charAt(j)){
+            return f(i+1,j+1);
+        }
 
+        int ins = 1 + f(i,j+1);
+        int del = 1 + f(i+1,j);
+        int rep = 1 + f(i+1,j+1);
 
-        if(w1.charAt(i) == w2.charAt(j)) return dp[i][j] = dfs(i+1,j+1);
-
-        int ins = dfs(i,j+1);
-        int del = dfs(i+1,j);
-        int rep = dfs(i+1,j+1);
-
-        return dp[i][j] =  1 + Math.min(ins,Math.min(del,rep));
+        return dp[i][j] = Math.min(ins,Math.min(del,rep));
     }
+
 }
