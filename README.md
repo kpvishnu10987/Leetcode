@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/kpvishnu10987/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kpvishnu10987/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1657-determine-if-two-strings-are-close](https://github.com/kpvishnu10987/Leetcode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kpvishnu10987/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kpvishnu10987/Leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kpvishnu10987/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1657-determine-if-two-strings-are-close](https://github.com/kpvishnu10987/Leetcode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1768-merge-strings-alternately](https://github.com/kpvishnu10987/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/kpvishnu10987/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/kpvishnu10987/Leetcode/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kpvishnu10987/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1657-determine-if-two-strings-are-close](https://github.com/kpvishnu10987/Leetcode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -687,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-allocate-mailboxes](https://github.com/kpvishnu10987/Leetcode/tree/master/1478-allocate-mailboxes) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/kpvishnu10987/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1657-determine-if-two-strings-are-close](https://github.com/kpvishnu10987/Leetcode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kpvishnu10987/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
