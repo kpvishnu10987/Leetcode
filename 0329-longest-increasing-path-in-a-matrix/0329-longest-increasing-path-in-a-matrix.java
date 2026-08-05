@@ -1,43 +1,43 @@
 class Solution {
+    int max = 1;
     int[][] dp;
+    int n;
+    int m;
     int[][] matrix;
-    int n, m;
-
-    int[] dr = {-1, 0, 1, 0};
-    int[] dc = {0, 1, 0, -1};
     public int longestIncreasingPath(int[][] matrix) {
         this.matrix = matrix;
         n = matrix.length;
         m = matrix[0].length;
-        int maxlen = 1;
 
         dp = new int[n][m];
+        for(int r[] : dp) Arrays.fill(r,-1);
 
-
-        for(int i = 0 ; i<n ; i++){
-            for(int j = 0 ; j< m ; j++){
-                maxlen = Math.max(maxlen,dfs(i,j));
+        for(int i = 0 ;i<n ; i++){
+            for(int j = 0 ; j<m ; j++){
+                dfs(i,j);
             }
         }
-        return maxlen;
+        return max;
     }
-    private int dfs(int r,int c){
-       if(dp[r][c] != 0) return dp[r][c];
+    private int dfs(int i,int j){
+        if(dp[i][j] != -1) return dp[i][j];
 
-       int len = 1;
+        int[] drow = {0,-1,1,0};
+        int[] dcol = {1,0,0,-1};
 
-       for(int i = 0 ; i<4 ; i++){
-            int nr = r + dr[i];
-            int nc = c + dc[i];
+        int ans = 1;
 
-            if(nr <0 || nc < 0 || nr == n || nc == m) continue;
-
-            if(matrix[nr][nc] > matrix[r][c]){
-                len = Math.max(len , 1+dfs(nr,nc));
+        for(int k = 0 ; k < 4 ; k++){
+            int nr = drow[k] + i;
+            int nc = dcol[k] + j;
+            if(nr >= 0 && nr < n && nc >=0 && nc <m){
+                if(matrix[nr][nc] > matrix[i][j]){
+                    ans = Math.max(ans,1 + dfs(nr,nc));
+                    max = Math.max(ans,max);
+                }
             }
-       }
+        }
 
-       return dp[r][c] = len;
-
+        return dp[i][j] = ans;
     }
 }
