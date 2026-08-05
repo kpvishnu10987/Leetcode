@@ -1,37 +1,32 @@
 class Solution {
-    int[][] dp;
     int n;
+    int[] prices;
+    int[][] dp;
     public int maxProfit(int[] prices) {
+        this.prices = prices;
         n = prices.length;
-
         dp = new int[n][3];
 
-        
-            for(int[] row : dp){
-                Arrays.fill(row,-1);
-            }
-        
+        for(int[] r : dp) Arrays.fill(r,-1);
 
-        return solve(0,2,prices);
+        return f(0,0);
+        
     }
-
-    private int solve(int i,int buy,int[] prices){
+    private int f(int code,int i){
         if(i == n) return 0;
 
-        if(dp[i][buy] != -1) return dp[i][buy];
+        if(dp[i][code] != -1) return dp[i][code];
 
-        if(buy == 2){
-            int take = -prices[i] + solve(i+1,0,prices);
-            int skip = solve(i+1,2,prices);
-            return dp[i][buy] = Math.max(take,skip);
-        }else if(buy == 0){
-            int sell = prices[i] + solve(i+1,1,prices);
-            int hold = solve(i+1,0,prices);
-            return dp[i][buy] = Math.max(sell,hold);
-        }else{
-            return dp[i][buy] = solve(i+1,2,prices);
+        if(code == 0){
+            int b = -prices[i] + f(1,i+1);
+            int nb = f(0,i+1);
+            return dp[i][code] = Math.max(b,nb);
+        }else if(code == 1){
+            int s = prices[i] + f(2,i+1);
+            int ns = f(1,i+1);
+            return dp[i][code] = Math.max(s,ns);
         }
 
-
+        return dp[i][code] = f(0,i+1);
     }
 }
