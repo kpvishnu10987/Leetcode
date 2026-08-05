@@ -1372,4 +1372,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/kpvishnu10987/Leetcode/tree/master/0322-coin-change) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kpvishnu10987/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
