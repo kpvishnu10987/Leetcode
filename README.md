@@ -1347,6 +1347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Longest Increasing Subsequence
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/kpvishnu10987/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0334-increasing-triplet-subsequence](https://github.com/kpvishnu10987/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 ## DP on Trees
 |  |
