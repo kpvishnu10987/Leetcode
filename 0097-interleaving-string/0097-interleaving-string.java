@@ -34,7 +34,7 @@ class Solution {
         int a = s1.charAt(i);
         int b = s2.charAt(j);
         int c= s3.charAt(i+j);
-        if(a != c && b != c) return false;
+        if(a != c && b != c) return dp[i][j] = false;
         boolean ans = false;
 
         if(a == c && b == c){
