@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/kpvishnu10987/Leetcode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2584-split-the-array-to-make-coprime-products](https://github.com/kpvishnu10987/Leetcode/tree/master/2584-split-the-array-to-make-coprime-products) |
 | [2747-count-zero-request-servers](https://github.com/kpvishnu10987/Leetcode/tree/master/2747-count-zero-request-servers) |
 | [3312-sorted-gcd-pair-queries](https://github.com/kpvishnu10987/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/kpvishnu10987/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2140-solving-questions-with-brainpower](https://github.com/kpvishnu10987/Leetcode/tree/master/2140-solving-questions-with-brainpower) |
 | [2145-count-the-hidden-sequences](https://github.com/kpvishnu10987/Leetcode/tree/master/2145-count-the-hidden-sequences) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/kpvishnu10987/Leetcode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/kpvishnu10987/Leetcode/tree/master/2350-find-closest-number-to-zero) |
 | [2584-split-the-array-to-make-coprime-products](https://github.com/kpvishnu10987/Leetcode/tree/master/2584-split-the-array-to-make-coprime-products) |
