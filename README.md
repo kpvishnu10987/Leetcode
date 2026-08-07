@@ -498,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kpvishnu10987/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/kpvishnu10987/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0746-min-cost-climbing-stairs](https://github.com/kpvishnu10987/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0790-domino-and-tromino-tiling](https://github.com/kpvishnu10987/Leetcode/tree/master/0790-domino-and-tromino-tiling) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -871,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kpvishnu10987/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/kpvishnu10987/Leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -1087,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/kpvishnu10987/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/kpvishnu10987/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -1143,6 +1146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
 | [0752-open-the-lock](https://github.com/kpvishnu10987/Leetcode/tree/master/0752-open-the-lock) |
 | [0778-swim-in-rising-water](https://github.com/kpvishnu10987/Leetcode/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/kpvishnu10987/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/kpvishnu10987/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -1245,6 +1249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kpvishnu10987/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kpvishnu10987/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -1265,6 +1270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/kpvishnu10987/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kpvishnu10987/Leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/kpvishnu10987/Leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kpvishnu10987/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0841-keys-and-rooms](https://github.com/kpvishnu10987/Leetcode/tree/master/0841-keys-and-rooms) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/kpvishnu10987/Leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0886-possible-bipartition](https://github.com/kpvishnu10987/Leetcode/tree/master/0886-possible-bipartition) |
