@@ -1,22 +1,33 @@
 class Solution {
     public int trap(int[] arr) {
         int n = arr.length;
-        int[] lmax = new int[n];
+        int lmax = 0;
+        int rmax = 0;
 
-        int prev = 0;
-
-        lmax[n-1] = 0;
-        for(int i = n-2 ; i>=0 ; i--){
-            lmax[i] = Math.max(arr[i+1],lmax[i+1]);
-        }
-
+        int l = 0;
+        int r = n-1;
         int water = 0;
-        for(int i = 0 ; i< n; i++){
-            int h = Math.min(lmax[i],prev);
-            water += Math.max(0,h-arr[i]);
-            prev = Math.max(prev,arr[i]);
+
+        while(l < r){
+            if(arr[l] <= arr[r]){
+                if(arr[l] > lmax){
+                    lmax = arr[l];
+                }else{
+                    water += lmax-arr[l];
+                }
+                l++;
+            }else{
+                if(arr[r] > rmax){
+                    rmax = arr[r];
+                }else{
+                    water += rmax-arr[r];
+                }
+                r--;
+            }
         }
 
         return water;
+        
+        
     }
 }
