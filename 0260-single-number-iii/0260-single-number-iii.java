@@ -1,23 +1,20 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int total  = 0;
+        int xor = 0;
 
         for(int num : nums){
-            total ^= num;
+            xor ^= num;
         }
-
-        int bit = 0;
-        while((total & (1 << bit)) != (1 << bit)){
-            bit++;
-        }
-        int mask = (1 << bit);
 
         int a = 0;
         int b = 0;
-
+        int i = 0;
+        while(((xor >> i) & 1) != 1){
+            i++;
+        }
 
         for(int num : nums){
-            if((num & mask) == 0){
+            if(((num >> i) & 1) == 1){
                 a ^= num;
             }else{
                 b ^= num;
@@ -25,6 +22,6 @@ class Solution {
         }
 
         return new int[]{a,b};
-        
+
     }
 }
