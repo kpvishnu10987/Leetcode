@@ -3,33 +3,39 @@ class Solution {
         int n = grid.length;
         int m = grid[0].length;
 
-        if(grid[0][0] == 1 || grid[n-1][m-1] ==1) return -1;
+        if (grid[n - 1][m - 1] == 1 || grid[0][0] == 1)
+            return -1;
 
+        boolean[][] vis = new boolean[n][m];
 
         Queue<int[]> q = new LinkedList<>();
         q.offer(new int[] { 0, 0 });
-        int path = 0;
-        int[] drow = { -1, -1, -1, 0, 0, 1, 1, 1 };
-        int[] dcol = { -1, 0, 1, -1, 1, -1, 0, 1 };
+        vis[0][0] = true;
+        int len = 1;
+        int drow[] = { 1, 1, 0, -1, 0, -1, 1, -1 };
+        int dcol[] = { 1, 0, 1, 0, -1, -1, -1, 1 };
 
         while (!q.isEmpty()) {
             int size = q.size();
-            path++;
-
             for (int k = 0; k < size; k++) {
                 int[] node = q.poll();
-                if (node[0] == n - 1 && node[1] == m - 1)
-                    return path;
+                int r = node[0];
+                int c = node[1];
+                if (r == n - 1 && c == m - 1)
+                    return len;
                 for (int i = 0; i < 8; i++) {
-                    int nr = node[0] + drow[i];
-                    int nc = node[1] + dcol[i];
-                    if (nr >= 0 && nr <= n - 1 && nc >= 0 && nc <= m - 1 && grid[nr][nc] == 0) {
-                        grid[nr][nc] = 1;
+                    int nr = r + drow[i];
+                    int nc = c + dcol[i];
+                    if (nr >= 0 && nr < n && nc >= 0 && nc < m && !vis[nr][nc] && grid[nr][nc] == 0) {
+                        vis[nr][nc] = true;
                         q.offer(new int[] { nr, nc });
                     }
                 }
             }
+
+            len++;
         }
+
         return -1;
     }
 }
