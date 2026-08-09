@@ -1,60 +1,50 @@
-class TrieNode{
-    TrieNode child[];
-    TrieNode(){
-        child = new TrieNode[2];
-    }
-}
-class Trie{
-    TrieNode root;
-    public Trie(){
-        root = new TrieNode();
-    }
-    public void insert(int num){
-        TrieNode cur = root;
-        for(int i = 31 ; i>=0 ; i--){
-            int bit = (num >> i) & 1;
-
-            if(cur.child[bit] == null){
-                cur.child[bit] = new TrieNode();
-            }
-
-            cur = cur.child[bit];
-        }
-    }
-
-    public int getmax(int num){
-        TrieNode cur = root;
-        int ans = 0;
-        for(int i = 31 ; i>=0 ; i--){
-            int bit = (num >> i) & 1;
-            int op = 1-bit;
-
-            if(cur.child[op] != null){
-                ans |= (1<<i);
-                cur = cur.child[op];
-            }else{
-                cur = cur.child[bit];
-            }
-        }
-        return ans;
-    }
-
-}
 class Solution {
+    class Trie{
+        Trie[] child;
+        Trie(){
+            child = new Trie[2];
+        }
+    }
+
+    Trie root = new Trie();
+
+    void insert(int num){
+        Trie node = root;
+        for(int bit = 30 ; bit >=0 ;bit--){
+            int b = (num >> bit) & 1;
+            if(node.child[b] == null){
+                node.child[b] = new Trie();
+            }
+                node = node.child[b];
+            
+        }
+    }
+
+    int getMax(int num){
+        Trie node = root;
+        int xor = 0;
+        for(int bit = 30 ; bit >=0 ;bit--){
+            int b = (num >> bit) & 1;
+            int op = b ^ 1;
+
+            if(node.child[op] != null){
+                xor |= (1 << bit);
+                node = node.child[op];
+            }else{
+                node = node.child[b];
+            }
+        }
+        return xor;
+    }
     public int findMaximumXOR(int[] nums) {
-        Trie t = new Trie();
-
+        for(int num :nums){
+            insert(num);
+        }
+        int ans = 0;
         for(int num : nums){
-            t.insert(num);
+            ans = Math.max(ans,getMax(num));
         }
 
-        int max = 0;
-
-        for(int num : nums){
-            max = Math.max(max,t.getmax(num));
-        }
-
-        return max;
-
+        return ans;
     }
 }
