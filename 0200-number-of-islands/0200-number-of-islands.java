@@ -1,39 +1,33 @@
 class Solution {
-    char[][] grid;
-    int n;
-    int m;
     public int numIslands(char[][] grid) {
-        this.grid = grid;
-        n = grid.length;
-        m = grid[0].length;
+        int n = grid.length;
+        int m = grid[0].length;
 
 
-        
-        int comp = 0;
+        int islands = 0;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        for(int i = 0 ; i<n ; i++){
+            for(int j =0 ; j<m ; j++){
                 if(grid[i][j] == '1'){
-                    comp++;
-                    dfs(i,j);
+                    islands++;
+                    dfs(i,j,grid);
                 }
             }
         }
 
-        return comp;
-
+        return islands;
     }
 
-    private void dfs(int i,int j){
-        if(i < 0 || j < 0 || i > n-1 || j > m-1) return;
-
+    private void dfs(int i,int j,char[][] grid){
+        if(i < 0 || j < 0 || i >= grid.length || j >= grid[0].length) return;
         if(grid[i][j] == '0') return;
 
         grid[i][j] = '0';
 
-        dfs(i+1,j);
-        dfs(i,j+1);
-        dfs(i-1,j);
-        dfs(i,j-1); 
+
+        dfs(i+1,j,grid);
+        dfs(i,j+1,grid);
+        dfs(i-1,j,grid);
+        dfs(i,j-1,grid);
     }
 }
