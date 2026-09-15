@@ -1489,4 +1489,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/kpvishnu10987/Leetcode/tree/master/1510-stone-game-iv) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
