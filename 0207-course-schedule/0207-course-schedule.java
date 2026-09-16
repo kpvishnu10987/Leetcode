@@ -1,23 +1,20 @@
 class Solution {
-    public boolean canFinish(int n, int[][] arr) {
+    public boolean canFinish(int n, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();
+        for(int i = 0 ; i<n ; i++){
+            graph.add(new ArrayList<>());
+        }
         int[] in = new int[n];
+
+        for(int p[] : prerequisites){
+            graph.get(p[1]).add(p[0]);
+            in[p[0]]++;
+        }
 
         Stack<Integer> st = new Stack<>();
 
         for(int i = 0 ; i<n ; i++){
-            graph.add(new ArrayList<>());
-        }
-
-        for(int[] a : arr){
-            graph.get(a[1]).add(a[0]);
-            in[a[0]]++;
-        }
-
-        for(int i = 0 ; i<n ; i++){
-            if(in[i] == 0){
-                st.push(i);
-            }
+            if(in[i] == 0) st.push(i);
         }
 
         while(!st.isEmpty()){
@@ -30,10 +27,9 @@ class Solution {
             }
         }
 
-        for(int i = 0 ; i<n ; i++){
+        for(int i = 0 ; i< n ;i++){
             if(in[i] != 0) return false;
         }
-
         return true;
     }
 }
