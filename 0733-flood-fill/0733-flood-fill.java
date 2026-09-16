@@ -1,27 +1,37 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int n = image.length;
+        int n= image.length;
         int m = image[0].length;
 
-        int ori = image[sr][sc];
-        if(color == ori) return image;
-        Queue<int[]> q = new LinkedList<>();
+        int or = image[sr][sc];
+        boolean[][] vis = new boolean[n][m];
+
         image[sr][sc] = color;
+        vis[sr][sc] = true;
+        int dr[] ={0,0,1,-1};
+        int dc[] ={1,-1,0,0};
+
+        Queue<int[]> q = new LinkedList<>();
         q.offer(new int[]{sr,sc});
-
-        int[] drow = {0,0,1,-1};
-        int[] dcol = {1,-1,0,0};
-
         while(!q.isEmpty()){
-            int[] node = q.poll();
-            int r = node[0];
-            int c = node[1];
-            for(int i = 0 ; i<4 ;i++){
-                int nr = r + drow[i];
-                int nc = c + dcol[i];
-                if(nr >= 0&& nc >=0 && nr < n&& nc <m && image[nr][nc] == ori){
-                    image[nr][nc] = color;
-                    q.offer(new int[]{nr,nc});
+            int size = q.size();
+            for(int i=0 ; i<size ; i++){
+                int[] cur = q.poll();
+                int r = cur[0];
+                int c = cur[1];
+
+                for(int k = 0 ; k<4 ; k++){
+                    int nr = r + dr[k];
+                    int nc = c + dc[k];
+
+                    if(nr >=0 && nr < n && nc >=0 && nc <m && !vis[nr][nc]){
+                        vis[nr][nc] = true;
+                        if(image[nr][nc] == or){
+                            image[nr][nc] = color;
+                            q.offer(new int[]{nr,nc});
+                        }
+                    }
+
                 }
             }
         }
