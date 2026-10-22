@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kpvishnu10987/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/kpvishnu10987/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2390-removing-stars-from-a-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/kpvishnu10987/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -655,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kpvishnu10987/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/kpvishnu10987/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1106-parsing-a-boolean-expression](https://github.com/kpvishnu10987/Leetcode/tree/master/1106-parsing-a-boolean-expression) |
+| [2390-removing-stars-from-a-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -814,6 +816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/kpvishnu10987/Leetcode/tree/master/0735-asteroid-collision) |
 | [1260-shift-2d-grid](https://github.com/kpvishnu10987/Leetcode/tree/master/1260-shift-2d-grid) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kpvishnu10987/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2390-removing-stars-from-a-string](https://github.com/kpvishnu10987/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/kpvishnu10987/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/kpvishnu10987/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Greedy
